@@ -1,0 +1,23 @@
+[
+  {
+    "name": "my-pv",
+    "capacity": "1Gi",
+    "access_modes": [
+      "ReadWriteOnce"
+    ],
+    "reclaim_policy": "Retain",
+    "storage_class": "",
+    "status": "Available"
+  },
+  {
+    "name": "pvc-47c9820a-8685-4e09-ba2c-aa60f497a525",
+    "capacity": "1Gi",
+    "access_modes": [
+      "ReadWriteOnce"
+    ],
+    "reclaim_policy": "Delete",
+    "storage_class": "standard",
+    "status": "Bound",
+    "claim": "default/my-pvc"
+  }
+]

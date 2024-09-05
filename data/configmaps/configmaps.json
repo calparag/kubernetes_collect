@@ -1,0 +1,92 @@
+[
+  {
+    "name": "kube-root-ca.crt",
+    "namespace": "default",
+    "data": {
+      "ca.crt": "-----BEGIN CERTIFICATE-----\nMIIDBjCCAe6gAwIBAgIBATANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDEwptaW5p\na3ViZUNBMB4XDTI0MDgwNjA3NTAwMloXDTM0MDgwNTA3NTAwMlowFTETMBEGA1UE\nAxMKbWluaWt1YmVDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANJ0\nlYN8X0v6d48QP71HdRy+NYZ+lZjbG6nVdyQl8c3ZzkGH1zT6fMoDI7RCxXhrvuib\npLYndJ2dGdtSFdVRmWUgVRb8DzCQ0YAXBJtt9uZ0N1WIEr2XWecgeRMwscjRz2ym\nlTJjyBxFdJJZBe9gYhu1AQslCE7+jD5/Te9HvWMYQyzCsFZ0MCZy2GDjx1/CAbiE\n5JsfBbHvhbwV0fD8P1x1OTOLL9u3ghkhvQg6pXaJTKfNS1i9hGaYW0Nm9x0KO+RY\nkXCH3O75g0tIl93KoG34vuotHdnmzzCFPBLcJY0IHw5THYxgCmbSTuY/dobSjDyU\nKeRp7LuXXhy5cf+Z9C8CAwEAAaNhMF8wDgYDVR0PAQH/BAQDAgKkMB0GA1UdJQQW\nMBQGCCsGAQUFBwMCBggrBgEFBQcDATAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQW\nBBShhMQygueRyNNBKUaoaimofxd6qDANBgkqhkiG9w0BAQsFAAOCAQEAPDwIFslg\njwfbvWQvu9OKgXg9zW4cfgtiN7ZlwZbbgIooHwdzjWncBkl34PZoHVo4nEdogncX\nYbXgdYr2EM7HTSjRW/6XlloEC4OgOigmpTSTHzgxGksRB5hTwHD4moESAwf8eWKT\nPmyq9vfNV7+7kVltS2B3BC6ag9tZTxmt9Gv16vmmK7ndOZuNQKK1OnFC9GAAzUfP\nkCrpx1Nqden59GoRORvxw6Ajaf3XhWAPleFCscf6OE2YUzKdPcvb/LxJKQrbAxlk\nhdQLHIJCSKBmg5Ut3O+wQnfdTQXN9NPoi/s+ovxrRZfvkBlQLLxcXu/M77iuHcIz\nqSbdUKuIxY0M0A==\n-----END CERTIFICATE-----\n"
+    }
+  },
+  {
+    "name": "my-config",
+    "namespace": "default",
+    "data": {
+      "config.json": "{\n  \"key\": \"value\"\n}\n"
+    }
+  },
+  {
+    "name": "kube-root-ca.crt",
+    "namespace": "kube-node-lease",
+    "data": {
+      "ca.crt": "-----BEGIN CERTIFICATE-----\nMIIDBjCCAe6gAwIBAgIBATANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDEwptaW5p\na3ViZUNBMB4XDTI0MDgwNjA3NTAwMloXDTM0MDgwNTA3NTAwMlowFTETMBEGA1UE\nAxMKbWluaWt1YmVDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANJ0\nlYN8X0v6d48QP71HdRy+NYZ+lZjbG6nVdyQl8c3ZzkGH1zT6fMoDI7RCxXhrvuib\npLYndJ2dGdtSFdVRmWUgVRb8DzCQ0YAXBJtt9uZ0N1WIEr2XWecgeRMwscjRz2ym\nlTJjyBxFdJJZBe9gYhu1AQslCE7+jD5/Te9HvWMYQyzCsFZ0MCZy2GDjx1/CAbiE\n5JsfBbHvhbwV0fD8P1x1OTOLL9u3ghkhvQg6pXaJTKfNS1i9hGaYW0Nm9x0KO+RY\nkXCH3O75g0tIl93KoG34vuotHdnmzzCFPBLcJY0IHw5THYxgCmbSTuY/dobSjDyU\nKeRp7LuXXhy5cf+Z9C8CAwEAAaNhMF8wDgYDVR0PAQH/BAQDAgKkMB0GA1UdJQQW\nMBQGCCsGAQUFBwMCBggrBgEFBQcDATAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQW\nBBShhMQygueRyNNBKUaoaimofxd6qDANBgkqhkiG9w0BAQsFAAOCAQEAPDwIFslg\njwfbvWQvu9OKgXg9zW4cfgtiN7ZlwZbbgIooHwdzjWncBkl34PZoHVo4nEdogncX\nYbXgdYr2EM7HTSjRW/6XlloEC4OgOigmpTSTHzgxGksRB5hTwHD4moESAwf8eWKT\nPmyq9vfNV7+7kVltS2B3BC6ag9tZTxmt9Gv16vmmK7ndOZuNQKK1OnFC9GAAzUfP\nkCrpx1Nqden59GoRORvxw6Ajaf3XhWAPleFCscf6OE2YUzKdPcvb/LxJKQrbAxlk\nhdQLHIJCSKBmg5Ut3O+wQnfdTQXN9NPoi/s+ovxrRZfvkBlQLLxcXu/M77iuHcIz\nqSbdUKuIxY0M0A==\n-----END CERTIFICATE-----\n"
+    }
+  },
+  {
+    "name": "cluster-info",
+    "namespace": "kube-public",
+    "data": {
+      "kubeconfig": "apiVersion: v1\nclusters:\n- cluster:\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCakNDQWU2Z0F3SUJBZ0lCQVRBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwdGFXNXAKYTNWaVpVTkJNQjRYRFRJME1EZ3dOakEzTlRBd01sb1hEVE0wTURnd05UQTNOVEF3TWxvd0ZURVRNQkVHQTFVRQpBeE1LYldsdWFXdDFZbVZEUVRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBTkowCmxZTjhYMHY2ZDQ4UVA3MUhkUnkrTllaK2xaamJHNm5WZHlRbDhjM1p6a0dIMXpUNmZNb0RJN1JDeFhocnZ1aWIKcExZbmRKMmRHZHRTRmRWUm1XVWdWUmI4RHpDUTBZQVhCSnR0OXVaME4xV0lFcjJYV2VjZ2VSTXdzY2pSejJ5bQpsVEpqeUJ4RmRKSlpCZTlnWWh1MUFRc2xDRTcrakQ1L1RlOUh2V01ZUXl6Q3NGWjBNQ1p5MkdEangxL0NBYmlFCjVKc2ZCYkh2aGJ3VjBmRDhQMXgxT1RPTEw5dTNnaGtodlFnNnBYYUpUS2ZOUzFpOWhHYVlXME5tOXgwS08rUlkKa1hDSDNPNzVnMHRJbDkzS29HMzR2dW90SGRubXp6Q0ZQQkxjSlkwSUh3NVRIWXhnQ21iU1R1WS9kb2JTakR5VQpLZVJwN0x1WFhoeTVjZitaOUM4Q0F3RUFBYU5oTUY4d0RnWURWUjBQQVFIL0JBUURBZ0trTUIwR0ExVWRKUVFXCk1CUUdDQ3NHQVFVRkJ3TUNCZ2dyQmdFRkJRY0RBVEFQQmdOVkhSTUJBZjhFQlRBREFRSC9NQjBHQTFVZERnUVcKQkJTaGhNUXlndWVSeU5OQktVYW9haW1vZnhkNnFEQU5CZ2txaGtpRzl3MEJBUXNGQUFPQ0FRRUFQRHdJRnNsZwpqd2ZidldRdnU5T0tnWGc5elc0Y2ZndGlON1psd1piYmdJb29Id2R6alduY0JrbDM0UFpvSFZvNG5FZG9nbmNYClliWGdkWXIyRU03SFRTalJXLzZYbGxvRUM0T2dPaWdtcFRTVEh6Z3hHa3NSQjVoVHdIRDRtb0VTQXdmOGVXS1QKUG15cTl2Zk5WNys3a1ZsdFMyQjNCQzZhZzl0WlR4bXQ5R3YxNnZtbUs3bmRPWnVOUUtLMU9uRkM5R0FBelVmUAprQ3JweDFOcWRlbjU5R29ST1J2eHc2QWphZjNYaFdBUGxlRkNzY2Y2T0UyWVV6S2RQY3ZiL0x4SktRcmJBeGxrCmhkUUxISUpDU0tCbWc1VXQzTyt3UW5mZFRRWE45TlBvaS9zK292eHJSWmZ2a0JsUUxMeGNYdS9NNzdpdUhjSXoKcVNiZFVLdUl4WTBNMEE9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==\n    server: https://control-plane.minikube.internal:8443\n  name: \"\"\ncontexts: null\ncurrent-context: \"\"\nkind: Config\npreferences: {}\nusers: null\n"
+    }
+  },
+  {
+    "name": "kube-root-ca.crt",
+    "namespace": "kube-public",
+    "data": {
+      "ca.crt": "-----BEGIN CERTIFICATE-----\nMIIDBjCCAe6gAwIBAgIBATANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDEwptaW5p\na3ViZUNBMB4XDTI0MDgwNjA3NTAwMloXDTM0MDgwNTA3NTAwMlowFTETMBEGA1UE\nAxMKbWluaWt1YmVDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANJ0\nlYN8X0v6d48QP71HdRy+NYZ+lZjbG6nVdyQl8c3ZzkGH1zT6fMoDI7RCxXhrvuib\npLYndJ2dGdtSFdVRmWUgVRb8DzCQ0YAXBJtt9uZ0N1WIEr2XWecgeRMwscjRz2ym\nlTJjyBxFdJJZBe9gYhu1AQslCE7+jD5/Te9HvWMYQyzCsFZ0MCZy2GDjx1/CAbiE\n5JsfBbHvhbwV0fD8P1x1OTOLL9u3ghkhvQg6pXaJTKfNS1i9hGaYW0Nm9x0KO+RY\nkXCH3O75g0tIl93KoG34vuotHdnmzzCFPBLcJY0IHw5THYxgCmbSTuY/dobSjDyU\nKeRp7LuXXhy5cf+Z9C8CAwEAAaNhMF8wDgYDVR0PAQH/BAQDAgKkMB0GA1UdJQQW\nMBQGCCsGAQUFBwMCBggrBgEFBQcDATAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQW\nBBShhMQygueRyNNBKUaoaimofxd6qDANBgkqhkiG9w0BAQsFAAOCAQEAPDwIFslg\njwfbvWQvu9OKgXg9zW4cfgtiN7ZlwZbbgIooHwdzjWncBkl34PZoHVo4nEdogncX\nYbXgdYr2EM7HTSjRW/6XlloEC4OgOigmpTSTHzgxGksRB5hTwHD4moESAwf8eWKT\nPmyq9vfNV7+7kVltS2B3BC6ag9tZTxmt9Gv16vmmK7ndOZuNQKK1OnFC9GAAzUfP\nkCrpx1Nqden59GoRORvxw6Ajaf3XhWAPleFCscf6OE2YUzKdPcvb/LxJKQrbAxlk\nhdQLHIJCSKBmg5Ut3O+wQnfdTQXN9NPoi/s+ovxrRZfvkBlQLLxcXu/M77iuHcIz\nqSbdUKuIxY0M0A==\n-----END CERTIFICATE-----\n"
+    }
+  },
+  {
+    "name": "coredns",
+    "namespace": "kube-system",
+    "data": {
+      "Corefile": ".:53 {\n    log\n    errors\n    health {\n       lameduck 5s\n    }\n    ready\n    kubernetes cluster.local in-addr.arpa ip6.arpa {\n       pods insecure\n       fallthrough in-addr.arpa ip6.arpa\n       ttl 30\n    }\n    prometheus :9153\n    hosts {\n       192.168.49.1 host.minikube.internal\n       fallthrough\n    }\n    forward . /etc/resolv.conf {\n       max_concurrent 1000\n    }\n    cache 30\n    loop\n    reload\n    loadbalance\n}\n"
+    }
+  },
+  {
+    "name": "extension-apiserver-authentication",
+    "namespace": "kube-system",
+    "data": {
+      "client-ca-file": "-----BEGIN CERTIFICATE-----\nMIIDBjCCAe6gAwIBAgIBATANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDEwptaW5p\na3ViZUNBMB4XDTI0MDgwNjA3NTAwMloXDTM0MDgwNTA3NTAwMlowFTETMBEGA1UE\nAxMKbWluaWt1YmVDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANJ0\nlYN8X0v6d48QP71HdRy+NYZ+lZjbG6nVdyQl8c3ZzkGH1zT6fMoDI7RCxXhrvuib\npLYndJ2dGdtSFdVRmWUgVRb8DzCQ0YAXBJtt9uZ0N1WIEr2XWecgeRMwscjRz2ym\nlTJjyBxFdJJZBe9gYhu1AQslCE7+jD5/Te9HvWMYQyzCsFZ0MCZy2GDjx1/CAbiE\n5JsfBbHvhbwV0fD8P1x1OTOLL9u3ghkhvQg6pXaJTKfNS1i9hGaYW0Nm9x0KO+RY\nkXCH3O75g0tIl93KoG34vuotHdnmzzCFPBLcJY0IHw5THYxgCmbSTuY/dobSjDyU\nKeRp7LuXXhy5cf+Z9C8CAwEAAaNhMF8wDgYDVR0PAQH/BAQDAgKkMB0GA1UdJQQW\nMBQGCCsGAQUFBwMCBggrBgEFBQcDATAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQW\nBBShhMQygueRyNNBKUaoaimofxd6qDANBgkqhkiG9w0BAQsFAAOCAQEAPDwIFslg\njwfbvWQvu9OKgXg9zW4cfgtiN7ZlwZbbgIooHwdzjWncBkl34PZoHVo4nEdogncX\nYbXgdYr2EM7HTSjRW/6XlloEC4OgOigmpTSTHzgxGksRB5hTwHD4moESAwf8eWKT\nPmyq9vfNV7+7kVltS2B3BC6ag9tZTxmt9Gv16vmmK7ndOZuNQKK1OnFC9GAAzUfP\nkCrpx1Nqden59GoRORvxw6Ajaf3XhWAPleFCscf6OE2YUzKdPcvb/LxJKQrbAxlk\nhdQLHIJCSKBmg5Ut3O+wQnfdTQXN9NPoi/s+ovxrRZfvkBlQLLxcXu/M77iuHcIz\nqSbdUKuIxY0M0A==\n-----END CERTIFICATE-----\n",
+      "requestheader-allowed-names": "[\"front-proxy-client\"]",
+      "requestheader-client-ca-file": "-----BEGIN CERTIFICATE-----\nMIIDETCCAfmgAwIBAgIIHEpCV8i4I2IwDQYJKoZIhvcNAQELBQAwGTEXMBUGA1UE\nAxMOZnJvbnQtcHJveHktY2EwHhcNMjQwODEyMDgyMzI1WhcNMzQwODEwMDgyODI1\nWjAZMRcwFQYDVQQDEw5mcm9udC1wcm94eS1jYTCCASIwDQYJKoZIhvcNAQEBBQAD\nggEPADCCAQoCggEBANbTyObxuuKJCNrQJ6SaPk+Izpt8qbjDQZADUitfuQ9eiaeZ\nQNvbEg8mDzpvQrR7/ITITg9+i6oC9eOGKDKC/q5RosoLdnyBmyhmJNy5bH4QOBAt\n9ZL8Y2O+UxVFHHBnNC36slr20dRMr9wuKyUxSQOjxgMxeaCb4nN3KNMWn1UnwZaX\nxcFQ4bDYtPH2NLLMk5NTKl5uyoCOqmXKL5fqql3NGHsvHPzYpeA7aV1+8syOdwxd\ncyaT8SGfeWfNiP0ijQd8EmePRiNylYl+uUra0G85tJxWW7ZLx19afGP/Ob0j6n1Q\n0we/YxB7KRU2XrQ6GOMCbUp2iWNO2Z6Qhm4YxM0CAwEAAaNdMFswDgYDVR0PAQH/\nBAQDAgKkMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFNUS0D65CRKVF5eRW/ZB\nSwKaPEh9MBkGA1UdEQQSMBCCDmZyb250LXByb3h5LWNhMA0GCSqGSIb3DQEBCwUA\nA4IBAQCMmSGMHHbw5sAiJuP1+YTZRm3GUWdqj+1JIukqEOwAQf0UOwbbLDYSIjFI\nskdwG5+gRAVNvIaaaQBBtaJYKK8wICsCsekdCH6lArBOjuebVIXvF3F/9LQzgC5/\nDWUMG2SZtw4HJFJc72cSWnrXcrVglgPJ5v33ObFg6ovsCTyiDUvj+bwSCaEZMIuJ\nb1Tqz31FuFq0udRGyYjGjOA2PvIJuzQ5heubcmIdxs3kwnYA4cLahBcK3NF5Tov1\ngli/5YrSr9N64/XI5+vI+gJOweseNGClHsxerPSFi0VM/aL0qivfGTb5dHjGlAHo\n5J2mBACup9/n7BiA2UVHrJvIKswM\n-----END CERTIFICATE-----\n",
+      "requestheader-extra-headers-prefix": "[\"X-Remote-Extra-\"]",
+      "requestheader-group-headers": "[\"X-Remote-Group\"]",
+      "requestheader-username-headers": "[\"X-Remote-User\"]"
+    }
+  },
+  {
+    "name": "kube-apiserver-legacy-service-account-token-tracking",
+    "namespace": "kube-system",
+    "data": {
+      "since": "2024-08-12"
+    }
+  },
+  {
+    "name": "kube-proxy",
+    "namespace": "kube-system",
+    "data": {
+      "config.conf": "apiVersion: kubeproxy.config.k8s.io/v1alpha1\nbindAddress: 0.0.0.0\nbindAddressHardFail: false\nclientConnection:\n  acceptContentTypes: \"\"\n  burst: 0\n  contentType: \"\"\n  kubeconfig: /var/lib/kube-proxy/kubeconfig.conf\n  qps: 0\nclusterCIDR: 10.244.0.0/16\nconfigSyncPeriod: 0s\nconntrack:\n  maxPerCore: 0\n  min: null\n  tcpBeLiberal: false\n  tcpCloseWaitTimeout: 0s\n  tcpEstablishedTimeout: 0s\n  udpStreamTimeout: 0s\n  udpTimeout: 0s\ndetectLocal:\n  bridgeInterface: \"\"\n  interfaceNamePrefix: \"\"\ndetectLocalMode: \"\"\nenableProfiling: false\nhealthzBindAddress: \"\"\nhostnameOverride: \"\"\niptables:\n  localhostNodePorts: null\n  masqueradeAll: false\n  masqueradeBit: null\n  minSyncPeriod: 0s\n  syncPeriod: 0s\nipvs:\n  excludeCIDRs: null\n  minSyncPeriod: 0s\n  scheduler: \"\"\n  strictARP: false\n  syncPeriod: 0s\n  tcpFinTimeout: 0s\n  tcpTimeout: 0s\n  udpTimeout: 0s\nkind: KubeProxyConfiguration\nlogging:\n  flushFrequency: 0\n  options:\n    json:\n      infoBufferSize: \"0\"\n    text:\n      infoBufferSize: \"0\"\n  verbosity: 0\nmetricsBindAddress: 0.0.0.0:10249\nmode: \"\"\nnftables:\n  masqueradeAll: false\n  masqueradeBit: null\n  minSyncPeriod: 0s\n  syncPeriod: 0s\nnodePortAddresses: null\noomScoreAdj: null\nportRange: \"\"\nshowHiddenMetricsForVersion: \"\"\nwinkernel:\n  enableDSR: false\n  forwardHealthCheckVip: false\n  networkName: \"\"\n  rootHnsEndpointName: \"\"\n  sourceVip: \"\"",
+      "kubeconfig.conf": "apiVersion: v1\nkind: Config\nclusters:\n- cluster:\n    certificate-authority: /var/run/secrets/kubernetes.io/serviceaccount/ca.crt\n    server: https://control-plane.minikube.internal:8443\n  name: default\ncontexts:\n- context:\n    cluster: default\n    namespace: default\n    user: default\n  name: default\ncurrent-context: default\nusers:\n- name: default\n  user:\n    tokenFile: /var/run/secrets/kubernetes.io/serviceaccount/token"
+    }
+  },
+  {
+    "name": "kube-root-ca.crt",
+    "namespace": "kube-system",
+    "data": {
+      "ca.crt": "-----BEGIN CERTIFICATE-----\nMIIDBjCCAe6gAwIBAgIBATANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDEwptaW5p\na3ViZUNBMB4XDTI0MDgwNjA3NTAwMloXDTM0MDgwNTA3NTAwMlowFTETMBEGA1UE\nAxMKbWluaWt1YmVDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANJ0\nlYN8X0v6d48QP71HdRy+NYZ+lZjbG6nVdyQl8c3ZzkGH1zT6fMoDI7RCxXhrvuib\npLYndJ2dGdtSFdVRmWUgVRb8DzCQ0YAXBJtt9uZ0N1WIEr2XWecgeRMwscjRz2ym\nlTJjyBxFdJJZBe9gYhu1AQslCE7+jD5/Te9HvWMYQyzCsFZ0MCZy2GDjx1/CAbiE\n5JsfBbHvhbwV0fD8P1x1OTOLL9u3ghkhvQg6pXaJTKfNS1i9hGaYW0Nm9x0KO+RY\nkXCH3O75g0tIl93KoG34vuotHdnmzzCFPBLcJY0IHw5THYxgCmbSTuY/dobSjDyU\nKeRp7LuXXhy5cf+Z9C8CAwEAAaNhMF8wDgYDVR0PAQH/BAQDAgKkMB0GA1UdJQQW\nMBQGCCsGAQUFBwMCBggrBgEFBQcDATAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQW\nBBShhMQygueRyNNBKUaoaimofxd6qDANBgkqhkiG9w0BAQsFAAOCAQEAPDwIFslg\njwfbvWQvu9OKgXg9zW4cfgtiN7ZlwZbbgIooHwdzjWncBkl34PZoHVo4nEdogncX\nYbXgdYr2EM7HTSjRW/6XlloEC4OgOigmpTSTHzgxGksRB5hTwHD4moESAwf8eWKT\nPmyq9vfNV7+7kVltS2B3BC6ag9tZTxmt9Gv16vmmK7ndOZuNQKK1OnFC9GAAzUfP\nkCrpx1Nqden59GoRORvxw6Ajaf3XhWAPleFCscf6OE2YUzKdPcvb/LxJKQrbAxlk\nhdQLHIJCSKBmg5Ut3O+wQnfdTQXN9NPoi/s+ovxrRZfvkBlQLLxcXu/M77iuHcIz\nqSbdUKuIxY0M0A==\n-----END CERTIFICATE-----\n"
+    }
+  },
+  {
+    "name": "kubeadm-config",
+    "namespace": "kube-system",
+    "data": {
+      "ClusterConfiguration": "apiServer:\n  certSANs:\n  - 127.0.0.1\n  - localhost\n  - 192.168.49.2\n  extraArgs:\n    enable-admission-plugins: NamespaceLifecycle,LimitRanger,ServiceAccount,DefaultStorageClass,DefaultTolerationSeconds,NodeRestriction,MutatingAdmissionWebhook,ValidatingAdmissionWebhook,ResourceQuota\n  timeoutForControlPlane: 4m0s\napiVersion: kubeadm.k8s.io/v1beta3\ncertificatesDir: /var/lib/minikube/certs\nclusterName: mk\ncontrolPlaneEndpoint: control-plane.minikube.internal:8443\ncontrollerManager:\n  extraArgs:\n    allocate-node-cidrs: \"true\"\n    leader-elect: \"false\"\ndns: {}\netcd:\n  local:\n    dataDir: /var/lib/minikube/etcd\n    extraArgs:\n      proxy-refresh-interval: \"70000\"\nimageRepository: registry.k8s.io\nkind: ClusterConfiguration\nkubernetesVersion: v1.30.0\nnetworking:\n  dnsDomain: cluster.local\n  podSubnet: 10.244.0.0/16\n  serviceSubnet: 10.96.0.0/12\nscheduler:\n  extraArgs:\n    leader-elect: \"false\"\n"
+    }
+  },
+  {
+    "name": "kubelet-config",
+    "namespace": "kube-system",
+    "data": {
+      "kubelet": "apiVersion: kubelet.config.k8s.io/v1beta1\nauthentication:\n  anonymous:\n    enabled: false\n  webhook:\n    cacheTTL: 0s\n    enabled: true\n  x509:\n    clientCAFile: /var/lib/minikube/certs/ca.crt\nauthorization:\n  mode: Webhook\n  webhook:\n    cacheAuthorizedTTL: 0s\n    cacheUnauthorizedTTL: 0s\ncgroupDriver: systemd\nclusterDNS:\n- 10.96.0.10\nclusterDomain: cluster.local\ncontainerRuntimeEndpoint: unix:///var/run/cri-dockerd.sock\ncpuManagerReconcilePeriod: 0s\nevictionHard:\n  imagefs.available: 0%\n  nodefs.available: 0%\n  nodefs.inodesFree: 0%\nevictionPressureTransitionPeriod: 0s\nfailSwapOn: false\nfileCheckFrequency: 0s\nhairpinMode: hairpin-veth\nhealthzBindAddress: 127.0.0.1\nhealthzPort: 10248\nhttpCheckFrequency: 0s\nimageGCHighThresholdPercent: 100\nimageMaximumGCAge: 0s\nimageMinimumGCAge: 0s\nkind: KubeletConfiguration\nlogging:\n  flushFrequency: 0\n  options:\n    json:\n      infoBufferSize: \"0\"\n    text:\n      infoBufferSize: \"0\"\n  verbosity: 0\nmemorySwap: {}\nnodeStatusReportFrequency: 0s\nnodeStatusUpdateFrequency: 0s\nrotateCertificates: true\nruntimeRequestTimeout: 15m0s\nshutdownGracePeriod: 0s\nshutdownGracePeriodCriticalPods: 0s\nstaticPodPath: /etc/kubernetes/manifests\nstreamingConnectionIdleTimeout: 0s\nsyncFrequency: 0s\nvolumeStatsAggPeriod: 0s\n"
+    }
+  }
+]

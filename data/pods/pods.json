@@ -1,0 +1,577 @@
+[
+  {
+    "name": "my-cronjob-28757310-ccqj7",
+    "namespace": "default",
+    "labels": {
+      "batch.kubernetes.io/controller-uid": "8dcb9bb6-6f3d-415d-8277-b80e1cb6791f",
+      "batch.kubernetes.io/job-name": "my-cronjob-28757310",
+      "controller-uid": "8dcb9bb6-6f3d-415d-8277-b80e1cb6791f",
+      "job-name": "my-cronjob-28757310"
+    },
+    "annotations": null,
+    "status": "Succeeded",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "my-cronjob",
+        "image": "busybox"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "kube-api-access-4dmcr"
+      }
+    ]
+  },
+  {
+    "name": "my-cronjob-28757311-pmc2m",
+    "namespace": "default",
+    "labels": {
+      "batch.kubernetes.io/controller-uid": "083fd668-e9ad-4267-8ffd-03aaa4b9f548",
+      "batch.kubernetes.io/job-name": "my-cronjob-28757311",
+      "controller-uid": "083fd668-e9ad-4267-8ffd-03aaa4b9f548",
+      "job-name": "my-cronjob-28757311"
+    },
+    "annotations": null,
+    "status": "Succeeded",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "my-cronjob",
+        "image": "busybox"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "kube-api-access-qrpj8"
+      }
+    ]
+  },
+  {
+    "name": "my-cronjob-28757312-mpgfd",
+    "namespace": "default",
+    "labels": {
+      "batch.kubernetes.io/controller-uid": "1d3296b9-048c-484d-b4b9-62c3b735f155",
+      "batch.kubernetes.io/job-name": "my-cronjob-28757312",
+      "controller-uid": "1d3296b9-048c-484d-b4b9-62c3b735f155",
+      "job-name": "my-cronjob-28757312"
+    },
+    "annotations": null,
+    "status": "Succeeded",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "my-cronjob",
+        "image": "busybox"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "kube-api-access-jxltw"
+      }
+    ]
+  },
+  {
+    "name": "my-cronjob-28757313-872vf",
+    "namespace": "default",
+    "labels": {
+      "batch.kubernetes.io/controller-uid": "401e745c-18c6-4602-b967-0b20c1d88127",
+      "batch.kubernetes.io/job-name": "my-cronjob-28757313",
+      "controller-uid": "401e745c-18c6-4602-b967-0b20c1d88127",
+      "job-name": "my-cronjob-28757313"
+    },
+    "annotations": null,
+    "status": "Pending",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "my-cronjob",
+        "image": "busybox"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "kube-api-access-txzt4"
+      }
+    ]
+  },
+  {
+    "name": "my-daemonset-fm2r2",
+    "namespace": "default",
+    "labels": {
+      "controller-revision-hash": "6cb69746f6",
+      "name": "my-daemonset",
+      "pod-template-generation": "1"
+    },
+    "annotations": null,
+    "status": "Running",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "my-container",
+        "image": "nginx:latest"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "kube-api-access-zfjg5"
+      }
+    ]
+  },
+  {
+    "name": "my-deployment-6d45fc889b-vtd2j",
+    "namespace": "default",
+    "labels": {
+      "app": "my-app",
+      "pod-template-hash": "6d45fc889b"
+    },
+    "annotations": null,
+    "status": "Running",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "my-container",
+        "image": "nginx:latest"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "kube-api-access-zv5vn"
+      }
+    ]
+  },
+  {
+    "name": "my-deployment-6d45fc889b-vvms4",
+    "namespace": "default",
+    "labels": {
+      "app": "my-app",
+      "pod-template-hash": "6d45fc889b"
+    },
+    "annotations": null,
+    "status": "Running",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "my-container",
+        "image": "nginx:latest"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "kube-api-access-whvdq"
+      }
+    ]
+  },
+  {
+    "name": "my-job-j9lqh",
+    "namespace": "default",
+    "labels": {
+      "batch.kubernetes.io/controller-uid": "baaac8b8-d275-4280-8e2c-19f8cf3b4cad",
+      "batch.kubernetes.io/job-name": "my-job",
+      "controller-uid": "baaac8b8-d275-4280-8e2c-19f8cf3b4cad",
+      "job-name": "my-job"
+    },
+    "annotations": null,
+    "status": "Succeeded",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "my-job",
+        "image": "busybox"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "kube-api-access-j9pqf"
+      }
+    ]
+  },
+  {
+    "name": "my-pod",
+    "namespace": "default",
+    "labels": {
+      "app": "my-app"
+    },
+    "annotations": {
+      "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Pod\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"my-app\"},\"name\":\"my-pod\",\"namespace\":\"default\"},\"spec\":{\"containers\":[{\"image\":\"nginx:latest\",\"name\":\"my-container\",\"ports\":[{\"containerPort\":80}]}]}}\n"
+    },
+    "status": "Running",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "my-container",
+        "image": "nginx:latest"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "kube-api-access-kpxdc"
+      }
+    ]
+  },
+  {
+    "name": "my-statefulset-0",
+    "namespace": "default",
+    "labels": {
+      "app": "my-app",
+      "apps.kubernetes.io/pod-index": "0",
+      "controller-revision-hash": "my-statefulset-564b5ddb5f",
+      "statefulset.kubernetes.io/pod-name": "my-statefulset-0"
+    },
+    "annotations": null,
+    "status": "Running",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "my-container",
+        "image": "nginx:latest"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "kube-api-access-skjm9"
+      }
+    ]
+  },
+  {
+    "name": "my-statefulset-1",
+    "namespace": "default",
+    "labels": {
+      "app": "my-app",
+      "apps.kubernetes.io/pod-index": "1",
+      "controller-revision-hash": "my-statefulset-564b5ddb5f",
+      "statefulset.kubernetes.io/pod-name": "my-statefulset-1"
+    },
+    "annotations": null,
+    "status": "Running",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "my-container",
+        "image": "nginx:latest"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "kube-api-access-p22l7"
+      }
+    ]
+  },
+  {
+    "name": "my-statefulset-2",
+    "namespace": "default",
+    "labels": {
+      "app": "my-app",
+      "apps.kubernetes.io/pod-index": "2",
+      "controller-revision-hash": "my-statefulset-564b5ddb5f",
+      "statefulset.kubernetes.io/pod-name": "my-statefulset-2"
+    },
+    "annotations": null,
+    "status": "Running",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "my-container",
+        "image": "nginx:latest"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "kube-api-access-h7ksk"
+      }
+    ]
+  },
+  {
+    "name": "nginx-deployment-5b6969d477-fvtr5",
+    "namespace": "default",
+    "labels": {
+      "app": "nginx",
+      "pod-template-hash": "5b6969d477"
+    },
+    "annotations": null,
+    "status": "Running",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "nginx",
+        "image": "nginx:1.19.3"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "kube-api-access-dzjpr"
+      }
+    ]
+  },
+  {
+    "name": "nginx-deployment-5b6969d477-ghb88",
+    "namespace": "default",
+    "labels": {
+      "app": "nginx",
+      "pod-template-hash": "5b6969d477"
+    },
+    "annotations": null,
+    "status": "Running",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "nginx",
+        "image": "nginx:1.19.3"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "kube-api-access-skz7t"
+      }
+    ]
+  },
+  {
+    "name": "nginx-deployment-5b6969d477-hx2tj",
+    "namespace": "default",
+    "labels": {
+      "app": "nginx",
+      "pod-template-hash": "5b6969d477"
+    },
+    "annotations": null,
+    "status": "Running",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "nginx",
+        "image": "nginx:1.19.3"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "kube-api-access-v5sqw"
+      }
+    ]
+  },
+  {
+    "name": "coredns-7db6d8ff4d-f57th",
+    "namespace": "kube-system",
+    "labels": {
+      "k8s-app": "kube-dns",
+      "pod-template-hash": "7db6d8ff4d"
+    },
+    "annotations": null,
+    "status": "Running",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "coredns",
+        "image": "registry.k8s.io/coredns/coredns:v1.11.1"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "config-volume"
+      },
+      {
+        "name": "kube-api-access-5jbfd"
+      }
+    ]
+  },
+  {
+    "name": "etcd-minikube",
+    "namespace": "kube-system",
+    "labels": {
+      "component": "etcd",
+      "tier": "control-plane"
+    },
+    "annotations": {
+      "kubeadm.kubernetes.io/etcd.advertise-client-urls": "https://192.168.49.2:2379",
+      "kubernetes.io/config.hash": "063d6b9688927e601f52fd818d1305c5",
+      "kubernetes.io/config.mirror": "063d6b9688927e601f52fd818d1305c5",
+      "kubernetes.io/config.seen": "2024-08-12T08:28:31.029929775Z",
+      "kubernetes.io/config.source": "file"
+    },
+    "status": "Running",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "etcd",
+        "image": "registry.k8s.io/etcd:3.5.12-0"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "etcd-certs"
+      },
+      {
+        "name": "etcd-data"
+      }
+    ]
+  },
+  {
+    "name": "kube-apiserver-minikube",
+    "namespace": "kube-system",
+    "labels": {
+      "component": "kube-apiserver",
+      "tier": "control-plane"
+    },
+    "annotations": {
+      "kubeadm.kubernetes.io/kube-apiserver.advertise-address.endpoint": "192.168.49.2:8443",
+      "kubernetes.io/config.hash": "3c555f828409b009ebee39fdbedfcac0",
+      "kubernetes.io/config.mirror": "3c555f828409b009ebee39fdbedfcac0",
+      "kubernetes.io/config.seen": "2024-08-12T08:28:45.744160058Z",
+      "kubernetes.io/config.source": "file"
+    },
+    "status": "Running",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "kube-apiserver",
+        "image": "registry.k8s.io/kube-apiserver:v1.30.0"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "ca-certs"
+      },
+      {
+        "name": "etc-ca-certificates"
+      },
+      {
+        "name": "k8s-certs"
+      },
+      {
+        "name": "usr-local-share-ca-certificates"
+      },
+      {
+        "name": "usr-share-ca-certificates"
+      }
+    ]
+  },
+  {
+    "name": "kube-controller-manager-minikube",
+    "namespace": "kube-system",
+    "labels": {
+      "component": "kube-controller-manager",
+      "tier": "control-plane"
+    },
+    "annotations": {
+      "kubernetes.io/config.hash": "7fd44e8d11c3e0ffe6b1825e2a1f2270",
+      "kubernetes.io/config.mirror": "7fd44e8d11c3e0ffe6b1825e2a1f2270",
+      "kubernetes.io/config.seen": "2024-08-12T08:28:31.029927916Z",
+      "kubernetes.io/config.source": "file"
+    },
+    "status": "Running",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "kube-controller-manager",
+        "image": "registry.k8s.io/kube-controller-manager:v1.30.0"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "ca-certs"
+      },
+      {
+        "name": "etc-ca-certificates"
+      },
+      {
+        "name": "flexvolume-dir"
+      },
+      {
+        "name": "k8s-certs"
+      },
+      {
+        "name": "kubeconfig"
+      },
+      {
+        "name": "usr-local-share-ca-certificates"
+      },
+      {
+        "name": "usr-share-ca-certificates"
+      }
+    ]
+  },
+  {
+    "name": "kube-proxy-sn6tt",
+    "namespace": "kube-system",
+    "labels": {
+      "controller-revision-hash": "79cf874c65",
+      "k8s-app": "kube-proxy",
+      "pod-template-generation": "1"
+    },
+    "annotations": null,
+    "status": "Running",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "kube-proxy",
+        "image": "registry.k8s.io/kube-proxy:v1.30.0"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "kube-proxy"
+      },
+      {
+        "name": "xtables-lock"
+      },
+      {
+        "name": "lib-modules"
+      },
+      {
+        "name": "kube-api-access-ps4k7"
+      }
+    ]
+  },
+  {
+    "name": "kube-scheduler-minikube",
+    "namespace": "kube-system",
+    "labels": {
+      "component": "kube-scheduler",
+      "tier": "control-plane"
+    },
+    "annotations": {
+      "kubernetes.io/config.hash": "f9c8e1d0d74b1727abdb4b4a31d3a7c1",
+      "kubernetes.io/config.mirror": "f9c8e1d0d74b1727abdb4b4a31d3a7c1",
+      "kubernetes.io/config.seen": "2024-08-12T08:28:31.029928772Z",
+      "kubernetes.io/config.source": "file"
+    },
+    "status": "Running",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "kube-scheduler",
+        "image": "registry.k8s.io/kube-scheduler:v1.30.0"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "kubeconfig"
+      }
+    ]
+  },
+  {
+    "name": "storage-provisioner",
+    "namespace": "kube-system",
+    "labels": {
+      "addonmanager.kubernetes.io/mode": "Reconcile",
+      "integration-test": "storage-provisioner"
+    },
+    "annotations": {
+      "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Pod\",\"metadata\":{\"annotations\":{},\"labels\":{\"addonmanager.kubernetes.io/mode\":\"Reconcile\",\"integration-test\":\"storage-provisioner\"},\"name\":\"storage-provisioner\",\"namespace\":\"kube-system\"},\"spec\":{\"containers\":[{\"command\":[\"/storage-provisioner\"],\"image\":\"gcr.io/k8s-minikube/storage-provisioner:v5\",\"imagePullPolicy\":\"IfNotPresent\",\"name\":\"storage-provisioner\",\"volumeMounts\":[{\"mountPath\":\"/tmp\",\"name\":\"tmp\"}]}],\"hostNetwork\":true,\"serviceAccountName\":\"storage-provisioner\",\"volumes\":[{\"hostPath\":{\"path\":\"/tmp\",\"type\":\"Directory\"},\"name\":\"tmp\"}]}}\n"
+    },
+    "status": "Running",
+    "node": "minikube",
+    "containers": [
+      {
+        "name": "storage-provisioner",
+        "image": "gcr.io/k8s-minikube/storage-provisioner:v5"
+      }
+    ],
+    "volumes": [
+      {
+        "name": "tmp"
+      },
+      {
+        "name": "kube-api-access-65z9v"
+      }
+    ]
+  }
+]

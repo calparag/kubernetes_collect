@@ -1,0 +1,14 @@
+[
+  {
+    "name": "my-hpa",
+    "namespace": "default",
+    "target": {
+      "kind": "Deployment",
+      "name": "my-deployment",
+      "apiVersion": "apps/v1"
+    },
+    "min_replicas": 1,
+    "max_replicas": 10,
+    "metrics": null
+  }
+]

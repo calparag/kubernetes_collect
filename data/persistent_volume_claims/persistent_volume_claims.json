@@ -1,0 +1,13 @@
+[
+  {
+    "name": "my-pvc",
+    "namespace": "default",
+    "storage_class": "standard",
+    "access_modes": [
+      "ReadWriteOnce"
+    ],
+    "capacity": "1Gi",
+    "status": "Bound",
+    "bound_pv": "pvc-47c9820a-8685-4e09-ba2c-aa60f497a525"
+  }
+]

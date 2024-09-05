@@ -1,0 +1,826 @@
+[
+  {
+    "name": "cluster-admin",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "cluster-admin"
+    },
+    "subjects": [
+      {
+        "kind": "Group",
+        "apiGroup": "rbac.authorization.k8s.io",
+        "name": "system:masters"
+      }
+    ]
+  },
+  {
+    "name": "kubeadm:cluster-admins",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "cluster-admin"
+    },
+    "subjects": [
+      {
+        "kind": "Group",
+        "apiGroup": "rbac.authorization.k8s.io",
+        "name": "kubeadm:cluster-admins"
+      }
+    ]
+  },
+  {
+    "name": "kubeadm:get-nodes",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "kubeadm:get-nodes"
+    },
+    "subjects": [
+      {
+        "kind": "Group",
+        "apiGroup": "rbac.authorization.k8s.io",
+        "name": "system:bootstrappers:kubeadm:default-node-token"
+      }
+    ]
+  },
+  {
+    "name": "kubeadm:kubelet-bootstrap",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:node-bootstrapper"
+    },
+    "subjects": [
+      {
+        "kind": "Group",
+        "apiGroup": "rbac.authorization.k8s.io",
+        "name": "system:bootstrappers:kubeadm:default-node-token"
+      }
+    ]
+  },
+  {
+    "name": "kubeadm:node-autoapprove-bootstrap",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:certificates.k8s.io:certificatesigningrequests:nodeclient"
+    },
+    "subjects": [
+      {
+        "kind": "Group",
+        "apiGroup": "rbac.authorization.k8s.io",
+        "name": "system:bootstrappers:kubeadm:default-node-token"
+      }
+    ]
+  },
+  {
+    "name": "kubeadm:node-autoapprove-certificate-rotation",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:certificates.k8s.io:certificatesigningrequests:selfnodeclient"
+    },
+    "subjects": [
+      {
+        "kind": "Group",
+        "apiGroup": "rbac.authorization.k8s.io",
+        "name": "system:nodes"
+      }
+    ]
+  },
+  {
+    "name": "kubeadm:node-proxier",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:node-proxier"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "kube-proxy",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "minikube-rbac",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "cluster-admin"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "default",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "my-clusterrolebinding",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "my-clusterrole"
+    },
+    "subjects": [
+      {
+        "kind": "User",
+        "apiGroup": "rbac.authorization.k8s.io",
+        "name": "jane"
+      }
+    ]
+  },
+  {
+    "name": "storage-provisioner",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:persistent-volume-provisioner"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "storage-provisioner",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:basic-user",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:basic-user"
+    },
+    "subjects": [
+      {
+        "kind": "Group",
+        "apiGroup": "rbac.authorization.k8s.io",
+        "name": "system:authenticated"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:attachdetach-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:attachdetach-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "attachdetach-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:certificate-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:certificate-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "certificate-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:clusterrole-aggregation-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:clusterrole-aggregation-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "clusterrole-aggregation-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:cronjob-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:cronjob-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "cronjob-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:daemon-set-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:daemon-set-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "daemon-set-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:deployment-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:deployment-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "deployment-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:disruption-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:disruption-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "disruption-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:endpoint-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:endpoint-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "endpoint-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:endpointslice-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:endpointslice-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "endpointslice-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:endpointslicemirroring-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:endpointslicemirroring-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "endpointslicemirroring-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:ephemeral-volume-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:ephemeral-volume-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "ephemeral-volume-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:expand-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:expand-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "expand-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:generic-garbage-collector",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:generic-garbage-collector"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "generic-garbage-collector",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:horizontal-pod-autoscaler",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:horizontal-pod-autoscaler"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "horizontal-pod-autoscaler",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:job-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:job-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "job-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:legacy-service-account-token-cleaner",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:legacy-service-account-token-cleaner"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "legacy-service-account-token-cleaner",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:namespace-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:namespace-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "namespace-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:node-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:node-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "node-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:persistent-volume-binder",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:persistent-volume-binder"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "persistent-volume-binder",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:pod-garbage-collector",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:pod-garbage-collector"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "pod-garbage-collector",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:pv-protection-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:pv-protection-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "pv-protection-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:pvc-protection-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:pvc-protection-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "pvc-protection-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:replicaset-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:replicaset-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "replicaset-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:replication-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:replication-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "replication-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:resourcequota-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:resourcequota-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "resourcequota-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:root-ca-cert-publisher",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:root-ca-cert-publisher"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "root-ca-cert-publisher",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:route-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:route-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "route-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:service-account-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:service-account-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "service-account-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:service-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:service-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "service-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:statefulset-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:statefulset-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "statefulset-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:ttl-after-finished-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:ttl-after-finished-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "ttl-after-finished-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:ttl-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:ttl-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "ttl-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:controller:validatingadmissionpolicy-status-controller",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:controller:validatingadmissionpolicy-status-controller"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "validatingadmissionpolicy-status-controller",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:coredns",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:coredns"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "coredns",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:discovery",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:discovery"
+    },
+    "subjects": [
+      {
+        "kind": "Group",
+        "apiGroup": "rbac.authorization.k8s.io",
+        "name": "system:authenticated"
+      }
+    ]
+  },
+  {
+    "name": "system:kube-controller-manager",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:kube-controller-manager"
+    },
+    "subjects": [
+      {
+        "kind": "User",
+        "apiGroup": "rbac.authorization.k8s.io",
+        "name": "system:kube-controller-manager"
+      }
+    ]
+  },
+  {
+    "name": "system:kube-dns",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:kube-dns"
+    },
+    "subjects": [
+      {
+        "kind": "ServiceAccount",
+        "name": "kube-dns",
+        "namespace": "kube-system"
+      }
+    ]
+  },
+  {
+    "name": "system:kube-scheduler",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:kube-scheduler"
+    },
+    "subjects": [
+      {
+        "kind": "User",
+        "apiGroup": "rbac.authorization.k8s.io",
+        "name": "system:kube-scheduler"
+      }
+    ]
+  },
+  {
+    "name": "system:monitoring",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:monitoring"
+    },
+    "subjects": [
+      {
+        "kind": "Group",
+        "apiGroup": "rbac.authorization.k8s.io",
+        "name": "system:monitoring"
+      }
+    ]
+  },
+  {
+    "name": "system:node",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:node"
+    },
+    "subjects": null
+  },
+  {
+    "name": "system:node-proxier",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:node-proxier"
+    },
+    "subjects": [
+      {
+        "kind": "User",
+        "apiGroup": "rbac.authorization.k8s.io",
+        "name": "system:kube-proxy"
+      }
+    ]
+  },
+  {
+    "name": "system:public-info-viewer",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:public-info-viewer"
+    },
+    "subjects": [
+      {
+        "kind": "Group",
+        "apiGroup": "rbac.authorization.k8s.io",
+        "name": "system:authenticated"
+      },
+      {
+        "kind": "Group",
+        "apiGroup": "rbac.authorization.k8s.io",
+        "name": "system:unauthenticated"
+      }
+    ]
+  },
+  {
+    "name": "system:service-account-issuer-discovery",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:service-account-issuer-discovery"
+    },
+    "subjects": [
+      {
+        "kind": "Group",
+        "apiGroup": "rbac.authorization.k8s.io",
+        "name": "system:serviceaccounts"
+      }
+    ]
+  },
+  {
+    "name": "system:volume-scheduler",
+    "role_ref": {
+      "apiGroup": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "name": "system:volume-scheduler"
+    },
+    "subjects": [
+      {
+        "kind": "User",
+        "apiGroup": "rbac.authorization.k8s.io",
+        "name": "system:kube-scheduler"
+      }
+    ]
+  }
+]

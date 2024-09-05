@@ -1,0 +1,37 @@
+[
+  {
+    "name": "my-cronjob-28757310",
+    "namespace": "default",
+    "successful_executions": 1,
+    "failed_executions": 0,
+    "pod_template": "my-cronjob"
+  },
+  {
+    "name": "my-cronjob-28757311",
+    "namespace": "default",
+    "successful_executions": 1,
+    "failed_executions": 0,
+    "pod_template": "my-cronjob"
+  },
+  {
+    "name": "my-cronjob-28757312",
+    "namespace": "default",
+    "successful_executions": 1,
+    "failed_executions": 0,
+    "pod_template": "my-cronjob"
+  },
+  {
+    "name": "my-cronjob-28757313",
+    "namespace": "default",
+    "successful_executions": 0,
+    "failed_executions": 0,
+    "pod_template": "my-cronjob"
+  },
+  {
+    "name": "my-job",
+    "namespace": "default",
+    "successful_executions": 1,
+    "failed_executions": 0,
+    "pod_template": "my-job"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "name": "my-network-policy",
+    "namespace": "default",
+    "pod_selector": {
+      "app": "my-app"
+    },
+    "ingress": [
+      {
+        "from": [
+          {
+            "podSelector": {
+              "matchLabels": {
+                "role": "frontend"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "egress": [
+      {
+        "to": [
+          {
+            "podSelector": {
+              "matchLabels": {
+                "role": "backend"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

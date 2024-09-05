@@ -1,0 +1,82 @@
+[
+    {
+        "type": "pod",
+        "collect": true
+    },
+    {
+        "type": "deployment",
+        "collect": true
+    },
+    {
+        "type": "service",
+        "collect": true
+    },
+    {
+        "type": "cluster_roles",
+        "collect": true
+    },
+    {
+        "type": "cluster_role_bindings",
+        "collect": true
+    },
+    {
+        "type": "configmaps",
+        "collect": true
+    },
+    {
+        "type": "crds",
+        "collect": true
+    },
+    {
+        "type": "cronjobs",
+        "collect": true
+    },
+    {
+        "type": "daemonsets",
+        "collect": true
+    },
+    {
+        "type": "events",
+        "collect": true
+    },
+    {
+        "type": "hpas",
+        "collect": true
+    },
+    {
+        "type": "ingresses",
+        "collect": true
+    },
+    {
+        "type": "jobs",
+        "collect": true
+    },
+    {
+        "type": "network_policies",
+        "collect": true
+    },
+    {
+        "type": "persistent_volumes",
+        "collect": true
+    },
+    {
+        "type": "persistent_volume_claims",
+        "collect": true
+    },
+    {
+        "type": "roles",
+        "collect": true
+    },
+    {
+        "type": "role_bindings",
+        "collect": true
+    },
+    {
+        "type": "secrets",
+        "collect": true
+    },
+    {
+        "type": "statefulsets",
+        "collect": true
+    }
+]

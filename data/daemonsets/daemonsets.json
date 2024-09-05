@@ -1,0 +1,49 @@
+[
+  {
+    "name": "my-daemonset",
+    "namespace": "default",
+    "labels": null,
+    "annotations": {
+      "deprecated.daemonset.template.generation": "1",
+      "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"apps/v1\",\"kind\":\"DaemonSet\",\"metadata\":{\"annotations\":{},\"name\":\"my-daemonset\",\"namespace\":\"default\"},\"spec\":{\"selector\":{\"matchLabels\":{\"name\":\"my-daemonset\"}},\"template\":{\"metadata\":{\"labels\":{\"name\":\"my-daemonset\"}},\"spec\":{\"containers\":[{\"image\":\"nginx:latest\",\"name\":\"my-container\"}]}}}}\n"
+    },
+    "selector": {
+      "matchLabels": {
+        "name": "my-daemonset"
+      }
+    },
+    "node_selector": null,
+    "update_strategy": {
+      "type": "RollingUpdate",
+      "rollingUpdate": {
+        "maxUnavailable": 1,
+        "maxSurge": 0
+      }
+    }
+  },
+  {
+    "name": "kube-proxy",
+    "namespace": "kube-system",
+    "labels": {
+      "k8s-app": "kube-proxy"
+    },
+    "annotations": {
+      "deprecated.daemonset.template.generation": "1"
+    },
+    "selector": {
+      "matchLabels": {
+        "k8s-app": "kube-proxy"
+      }
+    },
+    "node_selector": {
+      "kubernetes.io/os": "linux"
+    },
+    "update_strategy": {
+      "type": "RollingUpdate",
+      "rollingUpdate": {
+        "maxUnavailable": 1,
+        "maxSurge": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,341 @@
+[
+  {
+    "name": "my-role",
+    "namespace": "default",
+    "rules": [
+      {
+        "verbs": [
+          "get",
+          "watch",
+          "list"
+        ],
+        "apiGroups": [
+          ""
+        ],
+        "resources": [
+          "pods"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "kubeadm:bootstrap-signer-clusterinfo",
+    "namespace": "kube-public",
+    "rules": [
+      {
+        "verbs": [
+          "get"
+        ],
+        "apiGroups": [
+          ""
+        ],
+        "resources": [
+          "configmaps"
+        ],
+        "resourceNames": [
+          "cluster-info"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "system:controller:bootstrap-signer",
+    "namespace": "kube-public",
+    "rules": [
+      {
+        "verbs": [
+          "get",
+          "list",
+          "watch"
+        ],
+        "apiGroups": [
+          ""
+        ],
+        "resources": [
+          "configmaps"
+        ]
+      },
+      {
+        "verbs": [
+          "update"
+        ],
+        "apiGroups": [
+          ""
+        ],
+        "resources": [
+          "configmaps"
+        ],
+        "resourceNames": [
+          "cluster-info"
+        ]
+      },
+      {
+        "verbs": [
+          "create",
+          "patch",
+          "update"
+        ],
+        "apiGroups": [
+          "",
+          "events.k8s.io"
+        ],
+        "resources": [
+          "events"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "extension-apiserver-authentication-reader",
+    "namespace": "kube-system",
+    "rules": [
+      {
+        "verbs": [
+          "get",
+          "list",
+          "watch"
+        ],
+        "apiGroups": [
+          ""
+        ],
+        "resources": [
+          "configmaps"
+        ],
+        "resourceNames": [
+          "extension-apiserver-authentication"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "kube-proxy",
+    "namespace": "kube-system",
+    "rules": [
+      {
+        "verbs": [
+          "get"
+        ],
+        "apiGroups": [
+          ""
+        ],
+        "resources": [
+          "configmaps"
+        ],
+        "resourceNames": [
+          "kube-proxy"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "kubeadm:kubelet-config",
+    "namespace": "kube-system",
+    "rules": [
+      {
+        "verbs": [
+          "get"
+        ],
+        "apiGroups": [
+          ""
+        ],
+        "resources": [
+          "configmaps"
+        ],
+        "resourceNames": [
+          "kubelet-config"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "kubeadm:nodes-kubeadm-config",
+    "namespace": "kube-system",
+    "rules": [
+      {
+        "verbs": [
+          "get"
+        ],
+        "apiGroups": [
+          ""
+        ],
+        "resources": [
+          "configmaps"
+        ],
+        "resourceNames": [
+          "kubeadm-config"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "system::leader-locking-kube-controller-manager",
+    "namespace": "kube-system",
+    "rules": [
+      {
+        "verbs": [
+          "watch"
+        ],
+        "apiGroups": [
+          ""
+        ],
+        "resources": [
+          "configmaps"
+        ]
+      },
+      {
+        "verbs": [
+          "get",
+          "update"
+        ],
+        "apiGroups": [
+          ""
+        ],
+        "resources": [
+          "configmaps"
+        ],
+        "resourceNames": [
+          "kube-controller-manager"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "system::leader-locking-kube-scheduler",
+    "namespace": "kube-system",
+    "rules": [
+      {
+        "verbs": [
+          "watch"
+        ],
+        "apiGroups": [
+          ""
+        ],
+        "resources": [
+          "configmaps"
+        ]
+      },
+      {
+        "verbs": [
+          "get",
+          "update"
+        ],
+        "apiGroups": [
+          ""
+        ],
+        "resources": [
+          "configmaps"
+        ],
+        "resourceNames": [
+          "kube-scheduler"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "system:controller:bootstrap-signer",
+    "namespace": "kube-system",
+    "rules": [
+      {
+        "verbs": [
+          "get",
+          "list",
+          "watch"
+        ],
+        "apiGroups": [
+          ""
+        ],
+        "resources": [
+          "secrets"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "system:controller:cloud-provider",
+    "namespace": "kube-system",
+    "rules": [
+      {
+        "verbs": [
+          "create",
+          "get",
+          "list",
+          "watch"
+        ],
+        "apiGroups": [
+          ""
+        ],
+        "resources": [
+          "configmaps"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "system:controller:token-cleaner",
+    "namespace": "kube-system",
+    "rules": [
+      {
+        "verbs": [
+          "delete",
+          "get",
+          "list",
+          "watch"
+        ],
+        "apiGroups": [
+          ""
+        ],
+        "resources": [
+          "secrets"
+        ]
+      },
+      {
+        "verbs": [
+          "create",
+          "patch",
+          "update"
+        ],
+        "apiGroups": [
+          "",
+          "events.k8s.io"
+        ],
+        "resources": [
+          "events"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "system:persistent-volume-provisioner",
+    "namespace": "kube-system",
+    "rules": [
+      {
+        "verbs": [
+          "watch",
+          "create"
+        ],
+        "apiGroups": [
+          ""
+        ],
+        "resources": [
+          "endpoints"
+        ]
+      },
+      {
+        "verbs": [
+          "get",
+          "update",
+          "create"
+        ],
+        "apiGroups": [
+          ""
+        ],
+        "resources": [
+          "endpoints"
+        ],
+        "resourceNames": [
+          "k8s.io-minikube-hostpath"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,6252 @@
+[
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757252",
+      "uid": "5c66b8cf-2fdd-4dbe-8f6e-11e6c95e9ee6",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "95394"
+    },
+    "timestamp": "2024-09-04T07:32:10Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757253-6b2nv to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757253-6b2nv",
+      "uid": "a9f36c8f-1057-4c4b-9319-0800f8394368",
+      "apiVersion": "v1",
+      "resourceVersion": "95444"
+    },
+    "timestamp": "2024-09-04T07:33:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757253-6b2nv",
+      "uid": "a9f36c8f-1057-4c4b-9319-0800f8394368",
+      "apiVersion": "v1",
+      "resourceVersion": "95446",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:33:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.969s (2.969s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757253-6b2nv",
+      "uid": "a9f36c8f-1057-4c4b-9319-0800f8394368",
+      "apiVersion": "v1",
+      "resourceVersion": "95446",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:33:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757253-6b2nv",
+      "uid": "a9f36c8f-1057-4c4b-9319-0800f8394368",
+      "apiVersion": "v1",
+      "resourceVersion": "95446",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:33:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757253-6b2nv",
+      "uid": "a9f36c8f-1057-4c4b-9319-0800f8394368",
+      "apiVersion": "v1",
+      "resourceVersion": "95446",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:33:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757253-6b2nv",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757253",
+      "uid": "64ab25bf-f28e-4f89-9de5-25e7d61fe2d2",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "95442"
+    },
+    "timestamp": "2024-09-04T07:33:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757253",
+      "uid": "64ab25bf-f28e-4f89-9de5-25e7d61fe2d2",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "95465"
+    },
+    "timestamp": "2024-09-04T07:33:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757254-4znkz to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757254-4znkz",
+      "uid": "16473307-83d6-4826-a218-c72762b87466",
+      "apiVersion": "v1",
+      "resourceVersion": "95520"
+    },
+    "timestamp": "2024-09-04T07:34:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757254-4znkz",
+      "uid": "16473307-83d6-4826-a218-c72762b87466",
+      "apiVersion": "v1",
+      "resourceVersion": "95521",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:34:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.743s (2.743s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757254-4znkz",
+      "uid": "16473307-83d6-4826-a218-c72762b87466",
+      "apiVersion": "v1",
+      "resourceVersion": "95521",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:34:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757254-4znkz",
+      "uid": "16473307-83d6-4826-a218-c72762b87466",
+      "apiVersion": "v1",
+      "resourceVersion": "95521",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:34:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757254-4znkz",
+      "uid": "16473307-83d6-4826-a218-c72762b87466",
+      "apiVersion": "v1",
+      "resourceVersion": "95521",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:34:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757254-4znkz",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757254",
+      "uid": "bba2d147-71c2-423e-b339-960b84fb8e04",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "95517"
+    },
+    "timestamp": "2024-09-04T07:34:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757254",
+      "uid": "bba2d147-71c2-423e-b339-960b84fb8e04",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "95541"
+    },
+    "timestamp": "2024-09-04T07:34:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757255-smmqn to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757255-smmqn",
+      "uid": "c9707851-1028-44aa-a029-4f0353f5c860",
+      "apiVersion": "v1",
+      "resourceVersion": "95592"
+    },
+    "timestamp": "2024-09-04T07:35:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757255-smmqn",
+      "uid": "c9707851-1028-44aa-a029-4f0353f5c860",
+      "apiVersion": "v1",
+      "resourceVersion": "95593",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:35:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.823s (2.823s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757255-smmqn",
+      "uid": "c9707851-1028-44aa-a029-4f0353f5c860",
+      "apiVersion": "v1",
+      "resourceVersion": "95593",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:35:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757255-smmqn",
+      "uid": "c9707851-1028-44aa-a029-4f0353f5c860",
+      "apiVersion": "v1",
+      "resourceVersion": "95593",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:35:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757255-smmqn",
+      "uid": "c9707851-1028-44aa-a029-4f0353f5c860",
+      "apiVersion": "v1",
+      "resourceVersion": "95593",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:35:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757255-smmqn",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757255",
+      "uid": "8bbaf833-eee5-4b74-9e5d-214b394f15ee",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "95590"
+    },
+    "timestamp": "2024-09-04T07:35:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757255",
+      "uid": "8bbaf833-eee5-4b74-9e5d-214b394f15ee",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "95612"
+    },
+    "timestamp": "2024-09-04T07:35:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757256-gv9sv to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757256-gv9sv",
+      "uid": "5a01b229-3451-4d52-b2e8-5408cf369355",
+      "apiVersion": "v1",
+      "resourceVersion": "95665"
+    },
+    "timestamp": "2024-09-04T07:36:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757256-gv9sv",
+      "uid": "5a01b229-3451-4d52-b2e8-5408cf369355",
+      "apiVersion": "v1",
+      "resourceVersion": "95668",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:36:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.777s (2.777s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757256-gv9sv",
+      "uid": "5a01b229-3451-4d52-b2e8-5408cf369355",
+      "apiVersion": "v1",
+      "resourceVersion": "95668",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:36:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757256-gv9sv",
+      "uid": "5a01b229-3451-4d52-b2e8-5408cf369355",
+      "apiVersion": "v1",
+      "resourceVersion": "95668",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:36:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757256-gv9sv",
+      "uid": "5a01b229-3451-4d52-b2e8-5408cf369355",
+      "apiVersion": "v1",
+      "resourceVersion": "95668",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:36:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757256-gv9sv",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757256",
+      "uid": "facad3ea-a832-4538-89ce-e4b1bed9dff8",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "95663"
+    },
+    "timestamp": "2024-09-04T07:36:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757256",
+      "uid": "facad3ea-a832-4538-89ce-e4b1bed9dff8",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "95685"
+    },
+    "timestamp": "2024-09-04T07:36:07Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757257-vj55j to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757257-vj55j",
+      "uid": "320adc53-ed63-4767-afcc-47c9e21cc5ff",
+      "apiVersion": "v1",
+      "resourceVersion": "95738"
+    },
+    "timestamp": "2024-09-04T07:37:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757257-vj55j",
+      "uid": "320adc53-ed63-4767-afcc-47c9e21cc5ff",
+      "apiVersion": "v1",
+      "resourceVersion": "95739",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:37:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.722s (2.722s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757257-vj55j",
+      "uid": "320adc53-ed63-4767-afcc-47c9e21cc5ff",
+      "apiVersion": "v1",
+      "resourceVersion": "95739",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:37:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757257-vj55j",
+      "uid": "320adc53-ed63-4767-afcc-47c9e21cc5ff",
+      "apiVersion": "v1",
+      "resourceVersion": "95739",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:37:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757257-vj55j",
+      "uid": "320adc53-ed63-4767-afcc-47c9e21cc5ff",
+      "apiVersion": "v1",
+      "resourceVersion": "95739",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:37:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757257-vj55j",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757257",
+      "uid": "1324a885-8461-4936-8170-3cba6304215d",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "95736"
+    },
+    "timestamp": "2024-09-04T07:37:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757257",
+      "uid": "1324a885-8461-4936-8170-3cba6304215d",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "95758"
+    },
+    "timestamp": "2024-09-04T07:37:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757258-d5vdd to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757258-d5vdd",
+      "uid": "7e0202bd-1fb2-42a7-a7b0-e12a0b8fb996",
+      "apiVersion": "v1",
+      "resourceVersion": "95810"
+    },
+    "timestamp": "2024-09-04T07:38:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757258-d5vdd",
+      "uid": "7e0202bd-1fb2-42a7-a7b0-e12a0b8fb996",
+      "apiVersion": "v1",
+      "resourceVersion": "95813",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:38:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.657s (2.657s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757258-d5vdd",
+      "uid": "7e0202bd-1fb2-42a7-a7b0-e12a0b8fb996",
+      "apiVersion": "v1",
+      "resourceVersion": "95813",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:38:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757258-d5vdd",
+      "uid": "7e0202bd-1fb2-42a7-a7b0-e12a0b8fb996",
+      "apiVersion": "v1",
+      "resourceVersion": "95813",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:38:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757258-d5vdd",
+      "uid": "7e0202bd-1fb2-42a7-a7b0-e12a0b8fb996",
+      "apiVersion": "v1",
+      "resourceVersion": "95813",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:38:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757258-d5vdd",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757258",
+      "uid": "8b9ce5c6-40e8-4015-98c4-fd8bd4588b60",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "95808"
+    },
+    "timestamp": "2024-09-04T07:38:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757258",
+      "uid": "8b9ce5c6-40e8-4015-98c4-fd8bd4588b60",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "95829"
+    },
+    "timestamp": "2024-09-04T07:38:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757259-7bgq7 to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757259-7bgq7",
+      "uid": "bbcbc7a6-e9f6-40f8-84df-79f98570d510",
+      "apiVersion": "v1",
+      "resourceVersion": "95884"
+    },
+    "timestamp": "2024-09-04T07:39:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757259-7bgq7",
+      "uid": "bbcbc7a6-e9f6-40f8-84df-79f98570d510",
+      "apiVersion": "v1",
+      "resourceVersion": "95885",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:39:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.812s (2.812s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757259-7bgq7",
+      "uid": "bbcbc7a6-e9f6-40f8-84df-79f98570d510",
+      "apiVersion": "v1",
+      "resourceVersion": "95885",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:39:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757259-7bgq7",
+      "uid": "bbcbc7a6-e9f6-40f8-84df-79f98570d510",
+      "apiVersion": "v1",
+      "resourceVersion": "95885",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:39:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757259-7bgq7",
+      "uid": "bbcbc7a6-e9f6-40f8-84df-79f98570d510",
+      "apiVersion": "v1",
+      "resourceVersion": "95885",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:39:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757259-7bgq7",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757259",
+      "uid": "128a48a1-c33c-4841-8eb2-1fca741c634a",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "95882"
+    },
+    "timestamp": "2024-09-04T07:39:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757259",
+      "uid": "128a48a1-c33c-4841-8eb2-1fca741c634a",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "95903"
+    },
+    "timestamp": "2024-09-04T07:39:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757260-9w75f to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757260-9w75f",
+      "uid": "05eb769c-10aa-4071-a72f-80db8d0557d7",
+      "apiVersion": "v1",
+      "resourceVersion": "95955"
+    },
+    "timestamp": "2024-09-04T07:40:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757260-9w75f",
+      "uid": "05eb769c-10aa-4071-a72f-80db8d0557d7",
+      "apiVersion": "v1",
+      "resourceVersion": "95957",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:40:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 3.079s (3.079s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757260-9w75f",
+      "uid": "05eb769c-10aa-4071-a72f-80db8d0557d7",
+      "apiVersion": "v1",
+      "resourceVersion": "95957",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:40:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757260-9w75f",
+      "uid": "05eb769c-10aa-4071-a72f-80db8d0557d7",
+      "apiVersion": "v1",
+      "resourceVersion": "95957",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:40:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757260-9w75f",
+      "uid": "05eb769c-10aa-4071-a72f-80db8d0557d7",
+      "apiVersion": "v1",
+      "resourceVersion": "95957",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:40:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757260-9w75f",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757260",
+      "uid": "47ff68a3-e5f3-48e0-94ef-85eec52f55ad",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "95953"
+    },
+    "timestamp": "2024-09-04T07:40:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757260",
+      "uid": "47ff68a3-e5f3-48e0-94ef-85eec52f55ad",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "95978"
+    },
+    "timestamp": "2024-09-04T07:40:11Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757261-xkrdw to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757261-xkrdw",
+      "uid": "dbe047c4-3d20-4f9e-a26d-9a385f01f4b3",
+      "apiVersion": "v1",
+      "resourceVersion": "96028"
+    },
+    "timestamp": "2024-09-04T07:41:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757261-xkrdw",
+      "uid": "dbe047c4-3d20-4f9e-a26d-9a385f01f4b3",
+      "apiVersion": "v1",
+      "resourceVersion": "96031",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:41:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.696s (2.696s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757261-xkrdw",
+      "uid": "dbe047c4-3d20-4f9e-a26d-9a385f01f4b3",
+      "apiVersion": "v1",
+      "resourceVersion": "96031",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:41:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757261-xkrdw",
+      "uid": "dbe047c4-3d20-4f9e-a26d-9a385f01f4b3",
+      "apiVersion": "v1",
+      "resourceVersion": "96031",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:41:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757261-xkrdw",
+      "uid": "dbe047c4-3d20-4f9e-a26d-9a385f01f4b3",
+      "apiVersion": "v1",
+      "resourceVersion": "96031",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:41:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757261-xkrdw",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757261",
+      "uid": "2961428c-b1cc-4e0e-8e6b-71ebaa48c665",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96026"
+    },
+    "timestamp": "2024-09-04T07:41:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757261",
+      "uid": "2961428c-b1cc-4e0e-8e6b-71ebaa48c665",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96049"
+    },
+    "timestamp": "2024-09-04T07:41:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757262-jm9qr to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757262-jm9qr",
+      "uid": "ba63962c-17dc-43ed-8309-fb8b7c1a1c3a",
+      "apiVersion": "v1",
+      "resourceVersion": "96099"
+    },
+    "timestamp": "2024-09-04T07:42:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757262-jm9qr",
+      "uid": "ba63962c-17dc-43ed-8309-fb8b7c1a1c3a",
+      "apiVersion": "v1",
+      "resourceVersion": "96103",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:42:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.746s (2.746s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757262-jm9qr",
+      "uid": "ba63962c-17dc-43ed-8309-fb8b7c1a1c3a",
+      "apiVersion": "v1",
+      "resourceVersion": "96103",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:42:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757262-jm9qr",
+      "uid": "ba63962c-17dc-43ed-8309-fb8b7c1a1c3a",
+      "apiVersion": "v1",
+      "resourceVersion": "96103",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:42:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757262-jm9qr",
+      "uid": "ba63962c-17dc-43ed-8309-fb8b7c1a1c3a",
+      "apiVersion": "v1",
+      "resourceVersion": "96103",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:42:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757262-jm9qr",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757262",
+      "uid": "8cbc4525-1e2d-4f29-a85c-112d3b357994",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96098"
+    },
+    "timestamp": "2024-09-04T07:42:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757262",
+      "uid": "8cbc4525-1e2d-4f29-a85c-112d3b357994",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96121"
+    },
+    "timestamp": "2024-09-04T07:42:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757263-pxv69 to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757263-pxv69",
+      "uid": "c7929d19-cf76-4d83-aae3-5b310de01f5f",
+      "apiVersion": "v1",
+      "resourceVersion": "96173"
+    },
+    "timestamp": "2024-09-04T07:43:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757263-pxv69",
+      "uid": "c7929d19-cf76-4d83-aae3-5b310de01f5f",
+      "apiVersion": "v1",
+      "resourceVersion": "96176",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:43:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 3.234s (3.234s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757263-pxv69",
+      "uid": "c7929d19-cf76-4d83-aae3-5b310de01f5f",
+      "apiVersion": "v1",
+      "resourceVersion": "96176",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:43:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757263-pxv69",
+      "uid": "c7929d19-cf76-4d83-aae3-5b310de01f5f",
+      "apiVersion": "v1",
+      "resourceVersion": "96176",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:43:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757263-pxv69",
+      "uid": "c7929d19-cf76-4d83-aae3-5b310de01f5f",
+      "apiVersion": "v1",
+      "resourceVersion": "96176",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:43:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757263-pxv69",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757263",
+      "uid": "f585c112-11ea-4d02-a82e-75ff38656f98",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96171"
+    },
+    "timestamp": "2024-09-04T07:43:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757263",
+      "uid": "f585c112-11ea-4d02-a82e-75ff38656f98",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96194"
+    },
+    "timestamp": "2024-09-04T07:43:10Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757264-smcq9 to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757264-smcq9",
+      "uid": "75c06501-c5e6-4e9a-94b1-abcc440b8c9c",
+      "apiVersion": "v1",
+      "resourceVersion": "96247"
+    },
+    "timestamp": "2024-09-04T07:44:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757264-smcq9",
+      "uid": "75c06501-c5e6-4e9a-94b1-abcc440b8c9c",
+      "apiVersion": "v1",
+      "resourceVersion": "96248",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:44:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 3.164s (3.164s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757264-smcq9",
+      "uid": "75c06501-c5e6-4e9a-94b1-abcc440b8c9c",
+      "apiVersion": "v1",
+      "resourceVersion": "96248",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:44:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757264-smcq9",
+      "uid": "75c06501-c5e6-4e9a-94b1-abcc440b8c9c",
+      "apiVersion": "v1",
+      "resourceVersion": "96248",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:44:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757264-smcq9",
+      "uid": "75c06501-c5e6-4e9a-94b1-abcc440b8c9c",
+      "apiVersion": "v1",
+      "resourceVersion": "96248",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:44:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757264-smcq9",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757264",
+      "uid": "5d720af8-9dfb-4fac-8b07-ed334199e0c5",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96244"
+    },
+    "timestamp": "2024-09-04T07:44:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757264",
+      "uid": "5d720af8-9dfb-4fac-8b07-ed334199e0c5",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96269"
+    },
+    "timestamp": "2024-09-04T07:44:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757265-c9qqs to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757265-c9qqs",
+      "uid": "585ca94f-1535-49b6-a834-7ab7cea86c6a",
+      "apiVersion": "v1",
+      "resourceVersion": "96320"
+    },
+    "timestamp": "2024-09-04T07:45:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757265-c9qqs",
+      "uid": "585ca94f-1535-49b6-a834-7ab7cea86c6a",
+      "apiVersion": "v1",
+      "resourceVersion": "96321",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:45:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 7.843s (7.843s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757265-c9qqs",
+      "uid": "585ca94f-1535-49b6-a834-7ab7cea86c6a",
+      "apiVersion": "v1",
+      "resourceVersion": "96321",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:45:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757265-c9qqs",
+      "uid": "585ca94f-1535-49b6-a834-7ab7cea86c6a",
+      "apiVersion": "v1",
+      "resourceVersion": "96321",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:45:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757265-c9qqs",
+      "uid": "585ca94f-1535-49b6-a834-7ab7cea86c6a",
+      "apiVersion": "v1",
+      "resourceVersion": "96321",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:45:10Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757265-c9qqs",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757265",
+      "uid": "fdde1670-c5da-443a-be70-418c520df7fc",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96318"
+    },
+    "timestamp": "2024-09-04T07:45:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757265",
+      "uid": "fdde1670-c5da-443a-be70-418c520df7fc",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96344"
+    },
+    "timestamp": "2024-09-04T07:45:13Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757266-xmcpn to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757266-xmcpn",
+      "uid": "09166c68-3ecf-47d4-9491-0dc4f003fac8",
+      "apiVersion": "v1",
+      "resourceVersion": "96392"
+    },
+    "timestamp": "2024-09-04T07:46:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757266-xmcpn",
+      "uid": "09166c68-3ecf-47d4-9491-0dc4f003fac8",
+      "apiVersion": "v1",
+      "resourceVersion": "96396",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:46:03Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.717s (2.717s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757266-xmcpn",
+      "uid": "09166c68-3ecf-47d4-9491-0dc4f003fac8",
+      "apiVersion": "v1",
+      "resourceVersion": "96396",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:46:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757266-xmcpn",
+      "uid": "09166c68-3ecf-47d4-9491-0dc4f003fac8",
+      "apiVersion": "v1",
+      "resourceVersion": "96396",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:46:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757266-xmcpn",
+      "uid": "09166c68-3ecf-47d4-9491-0dc4f003fac8",
+      "apiVersion": "v1",
+      "resourceVersion": "96396",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:46:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757266-xmcpn",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757266",
+      "uid": "4c50a274-3873-4145-b626-9e4de8a47a02",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96391"
+    },
+    "timestamp": "2024-09-04T07:46:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757266",
+      "uid": "4c50a274-3873-4145-b626-9e4de8a47a02",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96415"
+    },
+    "timestamp": "2024-09-04T07:46:10Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757267-cx4j9 to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757267-cx4j9",
+      "uid": "733736c8-75d8-4852-aa6a-0b0047c9545d",
+      "apiVersion": "v1",
+      "resourceVersion": "96465"
+    },
+    "timestamp": "2024-09-04T07:47:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757267-cx4j9",
+      "uid": "733736c8-75d8-4852-aa6a-0b0047c9545d",
+      "apiVersion": "v1",
+      "resourceVersion": "96467",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:47:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.829s (2.829s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757267-cx4j9",
+      "uid": "733736c8-75d8-4852-aa6a-0b0047c9545d",
+      "apiVersion": "v1",
+      "resourceVersion": "96467",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:47:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757267-cx4j9",
+      "uid": "733736c8-75d8-4852-aa6a-0b0047c9545d",
+      "apiVersion": "v1",
+      "resourceVersion": "96467",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:47:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757267-cx4j9",
+      "uid": "733736c8-75d8-4852-aa6a-0b0047c9545d",
+      "apiVersion": "v1",
+      "resourceVersion": "96467",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:47:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757267-cx4j9",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757267",
+      "uid": "48959b66-fe36-4ee9-8454-de696a46a425",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96463"
+    },
+    "timestamp": "2024-09-04T07:47:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757267",
+      "uid": "48959b66-fe36-4ee9-8454-de696a46a425",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96486"
+    },
+    "timestamp": "2024-09-04T07:47:10Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757268-b2sfp to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757268-b2sfp",
+      "uid": "6a032650-bc5c-4fee-81a9-29e5d570986e",
+      "apiVersion": "v1",
+      "resourceVersion": "96536"
+    },
+    "timestamp": "2024-09-04T07:48:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757268-b2sfp",
+      "uid": "6a032650-bc5c-4fee-81a9-29e5d570986e",
+      "apiVersion": "v1",
+      "resourceVersion": "96537",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:48:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.683s (2.683s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757268-b2sfp",
+      "uid": "6a032650-bc5c-4fee-81a9-29e5d570986e",
+      "apiVersion": "v1",
+      "resourceVersion": "96537",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:48:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757268-b2sfp",
+      "uid": "6a032650-bc5c-4fee-81a9-29e5d570986e",
+      "apiVersion": "v1",
+      "resourceVersion": "96537",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:48:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757268-b2sfp",
+      "uid": "6a032650-bc5c-4fee-81a9-29e5d570986e",
+      "apiVersion": "v1",
+      "resourceVersion": "96537",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:48:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757268-b2sfp",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757268",
+      "uid": "8348bbf7-1698-4342-bb4c-f00e8b18cbeb",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96533"
+    },
+    "timestamp": "2024-09-04T07:48:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757268",
+      "uid": "8348bbf7-1698-4342-bb4c-f00e8b18cbeb",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96556"
+    },
+    "timestamp": "2024-09-04T07:48:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757269-4gggw to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757269-4gggw",
+      "uid": "c6274330-6e99-462c-adbc-1649011f3f8b",
+      "apiVersion": "v1",
+      "resourceVersion": "96610"
+    },
+    "timestamp": "2024-09-04T07:49:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757269-4gggw",
+      "uid": "c6274330-6e99-462c-adbc-1649011f3f8b",
+      "apiVersion": "v1",
+      "resourceVersion": "96613",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:49:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.861s (2.861s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757269-4gggw",
+      "uid": "c6274330-6e99-462c-adbc-1649011f3f8b",
+      "apiVersion": "v1",
+      "resourceVersion": "96613",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:49:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757269-4gggw",
+      "uid": "c6274330-6e99-462c-adbc-1649011f3f8b",
+      "apiVersion": "v1",
+      "resourceVersion": "96613",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:49:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757269-4gggw",
+      "uid": "c6274330-6e99-462c-adbc-1649011f3f8b",
+      "apiVersion": "v1",
+      "resourceVersion": "96613",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:49:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757269-4gggw",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757269",
+      "uid": "9e1a33d7-05bc-446c-a22c-d1ea53c1400b",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96607"
+    },
+    "timestamp": "2024-09-04T07:49:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757269",
+      "uid": "9e1a33d7-05bc-446c-a22c-d1ea53c1400b",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96631"
+    },
+    "timestamp": "2024-09-04T07:49:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757270-62vbh to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757270-62vbh",
+      "uid": "b314c2a6-629b-43f6-b9b0-b5fc47bf3bbd",
+      "apiVersion": "v1",
+      "resourceVersion": "96682"
+    },
+    "timestamp": "2024-09-04T07:50:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757270-62vbh",
+      "uid": "b314c2a6-629b-43f6-b9b0-b5fc47bf3bbd",
+      "apiVersion": "v1",
+      "resourceVersion": "96683",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:50:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.828s (2.828s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757270-62vbh",
+      "uid": "b314c2a6-629b-43f6-b9b0-b5fc47bf3bbd",
+      "apiVersion": "v1",
+      "resourceVersion": "96683",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:50:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757270-62vbh",
+      "uid": "b314c2a6-629b-43f6-b9b0-b5fc47bf3bbd",
+      "apiVersion": "v1",
+      "resourceVersion": "96683",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:50:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757270-62vbh",
+      "uid": "b314c2a6-629b-43f6-b9b0-b5fc47bf3bbd",
+      "apiVersion": "v1",
+      "resourceVersion": "96683",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:50:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757270-62vbh",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757270",
+      "uid": "c727188a-6d92-41fe-ab33-979f11133604",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96680"
+    },
+    "timestamp": "2024-09-04T07:50:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757270",
+      "uid": "c727188a-6d92-41fe-ab33-979f11133604",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96703"
+    },
+    "timestamp": "2024-09-04T07:50:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757271-wrsr9 to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757271-wrsr9",
+      "uid": "915840dc-85d3-4504-88ed-f1318e437fa2",
+      "apiVersion": "v1",
+      "resourceVersion": "96755"
+    },
+    "timestamp": "2024-09-04T07:51:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757271-wrsr9",
+      "uid": "915840dc-85d3-4504-88ed-f1318e437fa2",
+      "apiVersion": "v1",
+      "resourceVersion": "96758",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:51:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 3.195s (3.195s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757271-wrsr9",
+      "uid": "915840dc-85d3-4504-88ed-f1318e437fa2",
+      "apiVersion": "v1",
+      "resourceVersion": "96758",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:51:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757271-wrsr9",
+      "uid": "915840dc-85d3-4504-88ed-f1318e437fa2",
+      "apiVersion": "v1",
+      "resourceVersion": "96758",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:51:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757271-wrsr9",
+      "uid": "915840dc-85d3-4504-88ed-f1318e437fa2",
+      "apiVersion": "v1",
+      "resourceVersion": "96758",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:51:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757271-wrsr9",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757271",
+      "uid": "480c6589-67d6-4f47-be5c-59076a3d47ed",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96753"
+    },
+    "timestamp": "2024-09-04T07:51:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757271",
+      "uid": "480c6589-67d6-4f47-be5c-59076a3d47ed",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96777"
+    },
+    "timestamp": "2024-09-04T07:51:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757272-jkhf4 to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757272-jkhf4",
+      "uid": "40f13cc1-a114-4a51-93f7-494cbae5090c",
+      "apiVersion": "v1",
+      "resourceVersion": "96828"
+    },
+    "timestamp": "2024-09-04T07:52:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757272-jkhf4",
+      "uid": "40f13cc1-a114-4a51-93f7-494cbae5090c",
+      "apiVersion": "v1",
+      "resourceVersion": "96830",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:52:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.644s (2.644s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757272-jkhf4",
+      "uid": "40f13cc1-a114-4a51-93f7-494cbae5090c",
+      "apiVersion": "v1",
+      "resourceVersion": "96830",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:52:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757272-jkhf4",
+      "uid": "40f13cc1-a114-4a51-93f7-494cbae5090c",
+      "apiVersion": "v1",
+      "resourceVersion": "96830",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:52:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757272-jkhf4",
+      "uid": "40f13cc1-a114-4a51-93f7-494cbae5090c",
+      "apiVersion": "v1",
+      "resourceVersion": "96830",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:52:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757272-jkhf4",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757272",
+      "uid": "c00e2ddd-5c38-48f2-9e39-0a25f081412c",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96826"
+    },
+    "timestamp": "2024-09-04T07:52:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757272",
+      "uid": "c00e2ddd-5c38-48f2-9e39-0a25f081412c",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96849"
+    },
+    "timestamp": "2024-09-04T07:52:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757273-6m7bw to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757273-6m7bw",
+      "uid": "70d2f707-0909-43c7-9f2e-3f26d5af27ee",
+      "apiVersion": "v1",
+      "resourceVersion": "96900"
+    },
+    "timestamp": "2024-09-04T07:53:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757273-6m7bw",
+      "uid": "70d2f707-0909-43c7-9f2e-3f26d5af27ee",
+      "apiVersion": "v1",
+      "resourceVersion": "96901",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:53:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.665s (2.665s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757273-6m7bw",
+      "uid": "70d2f707-0909-43c7-9f2e-3f26d5af27ee",
+      "apiVersion": "v1",
+      "resourceVersion": "96901",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:53:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757273-6m7bw",
+      "uid": "70d2f707-0909-43c7-9f2e-3f26d5af27ee",
+      "apiVersion": "v1",
+      "resourceVersion": "96901",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:53:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757273-6m7bw",
+      "uid": "70d2f707-0909-43c7-9f2e-3f26d5af27ee",
+      "apiVersion": "v1",
+      "resourceVersion": "96901",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:53:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757273-6m7bw",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757273",
+      "uid": "2c30d1a4-9a98-456a-b03c-57ddec6ff74b",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96898"
+    },
+    "timestamp": "2024-09-04T07:53:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757273",
+      "uid": "2c30d1a4-9a98-456a-b03c-57ddec6ff74b",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96920"
+    },
+    "timestamp": "2024-09-04T07:53:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757274-6ztzm to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757274-6ztzm",
+      "uid": "94fb4c0e-5e2a-420b-8c96-80955c020507",
+      "apiVersion": "v1",
+      "resourceVersion": "96973"
+    },
+    "timestamp": "2024-09-04T07:54:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757274-6ztzm",
+      "uid": "94fb4c0e-5e2a-420b-8c96-80955c020507",
+      "apiVersion": "v1",
+      "resourceVersion": "96974",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:54:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.963s (2.963s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757274-6ztzm",
+      "uid": "94fb4c0e-5e2a-420b-8c96-80955c020507",
+      "apiVersion": "v1",
+      "resourceVersion": "96974",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:54:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757274-6ztzm",
+      "uid": "94fb4c0e-5e2a-420b-8c96-80955c020507",
+      "apiVersion": "v1",
+      "resourceVersion": "96974",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:54:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757274-6ztzm",
+      "uid": "94fb4c0e-5e2a-420b-8c96-80955c020507",
+      "apiVersion": "v1",
+      "resourceVersion": "96974",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:54:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757274-6ztzm",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757274",
+      "uid": "a841387d-bb11-4e09-92bd-7c8a5fa3333e",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96970"
+    },
+    "timestamp": "2024-09-04T07:54:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757274",
+      "uid": "a841387d-bb11-4e09-92bd-7c8a5fa3333e",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "96994"
+    },
+    "timestamp": "2024-09-04T07:54:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757275-2h4mn to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757275-2h4mn",
+      "uid": "971c9e79-f50e-4541-9388-80fe7e21a129",
+      "apiVersion": "v1",
+      "resourceVersion": "97045"
+    },
+    "timestamp": "2024-09-04T07:55:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757275-2h4mn",
+      "uid": "971c9e79-f50e-4541-9388-80fe7e21a129",
+      "apiVersion": "v1",
+      "resourceVersion": "97047",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:55:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 4.62s (4.62s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757275-2h4mn",
+      "uid": "971c9e79-f50e-4541-9388-80fe7e21a129",
+      "apiVersion": "v1",
+      "resourceVersion": "97047",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:55:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757275-2h4mn",
+      "uid": "971c9e79-f50e-4541-9388-80fe7e21a129",
+      "apiVersion": "v1",
+      "resourceVersion": "97047",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:55:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757275-2h4mn",
+      "uid": "971c9e79-f50e-4541-9388-80fe7e21a129",
+      "apiVersion": "v1",
+      "resourceVersion": "97047",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:55:07Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757275-2h4mn",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757275",
+      "uid": "25193315-8f8b-43d7-83a6-e1ec741f3d06",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97043"
+    },
+    "timestamp": "2024-09-04T07:55:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757275",
+      "uid": "25193315-8f8b-43d7-83a6-e1ec741f3d06",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97068"
+    },
+    "timestamp": "2024-09-04T07:55:10Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757276-qkwj8 to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757276-qkwj8",
+      "uid": "01fe455c-8751-4677-926b-65a1ec689ef2",
+      "apiVersion": "v1",
+      "resourceVersion": "97119"
+    },
+    "timestamp": "2024-09-04T07:56:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757276-qkwj8",
+      "uid": "01fe455c-8751-4677-926b-65a1ec689ef2",
+      "apiVersion": "v1",
+      "resourceVersion": "97122",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:56:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.784s (2.784s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757276-qkwj8",
+      "uid": "01fe455c-8751-4677-926b-65a1ec689ef2",
+      "apiVersion": "v1",
+      "resourceVersion": "97122",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:56:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757276-qkwj8",
+      "uid": "01fe455c-8751-4677-926b-65a1ec689ef2",
+      "apiVersion": "v1",
+      "resourceVersion": "97122",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:56:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757276-qkwj8",
+      "uid": "01fe455c-8751-4677-926b-65a1ec689ef2",
+      "apiVersion": "v1",
+      "resourceVersion": "97122",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:56:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757276-qkwj8",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757276",
+      "uid": "241c0379-196a-40c2-888f-a6b4d377e023",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97117"
+    },
+    "timestamp": "2024-09-04T07:56:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757276",
+      "uid": "241c0379-196a-40c2-888f-a6b4d377e023",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97139"
+    },
+    "timestamp": "2024-09-04T07:56:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757277-5wld6 to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757277-5wld6",
+      "uid": "f763a44d-33f2-42c3-af4a-46bebf15a530",
+      "apiVersion": "v1",
+      "resourceVersion": "97191"
+    },
+    "timestamp": "2024-09-04T07:57:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757277-5wld6",
+      "uid": "f763a44d-33f2-42c3-af4a-46bebf15a530",
+      "apiVersion": "v1",
+      "resourceVersion": "97192",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:57:03Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 3.012s (3.012s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757277-5wld6",
+      "uid": "f763a44d-33f2-42c3-af4a-46bebf15a530",
+      "apiVersion": "v1",
+      "resourceVersion": "97192",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:57:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757277-5wld6",
+      "uid": "f763a44d-33f2-42c3-af4a-46bebf15a530",
+      "apiVersion": "v1",
+      "resourceVersion": "97192",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:57:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757277-5wld6",
+      "uid": "f763a44d-33f2-42c3-af4a-46bebf15a530",
+      "apiVersion": "v1",
+      "resourceVersion": "97192",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:57:07Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757277-5wld6",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757277",
+      "uid": "87de997e-a168-4207-9952-04f835e8fc85",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97189"
+    },
+    "timestamp": "2024-09-04T07:57:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757277",
+      "uid": "87de997e-a168-4207-9952-04f835e8fc85",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97213"
+    },
+    "timestamp": "2024-09-04T07:57:11Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757278-87xqk to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757278-87xqk",
+      "uid": "33abd13d-fbb6-4ac7-bac3-f3c3dbe69ad2",
+      "apiVersion": "v1",
+      "resourceVersion": "97263"
+    },
+    "timestamp": "2024-09-04T07:58:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757278-87xqk",
+      "uid": "33abd13d-fbb6-4ac7-bac3-f3c3dbe69ad2",
+      "apiVersion": "v1",
+      "resourceVersion": "97264",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:58:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.618s (2.618s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757278-87xqk",
+      "uid": "33abd13d-fbb6-4ac7-bac3-f3c3dbe69ad2",
+      "apiVersion": "v1",
+      "resourceVersion": "97264",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:58:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757278-87xqk",
+      "uid": "33abd13d-fbb6-4ac7-bac3-f3c3dbe69ad2",
+      "apiVersion": "v1",
+      "resourceVersion": "97264",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:58:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757278-87xqk",
+      "uid": "33abd13d-fbb6-4ac7-bac3-f3c3dbe69ad2",
+      "apiVersion": "v1",
+      "resourceVersion": "97264",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:58:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757278-87xqk",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757278",
+      "uid": "6281677c-6e00-4b1c-90ad-9770f67d564a",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97261"
+    },
+    "timestamp": "2024-09-04T07:58:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757278",
+      "uid": "6281677c-6e00-4b1c-90ad-9770f67d564a",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97284"
+    },
+    "timestamp": "2024-09-04T07:58:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757279-vgnvt to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757279-vgnvt",
+      "uid": "b728deed-07a6-4b3e-a39f-5d9c1d41bf14",
+      "apiVersion": "v1",
+      "resourceVersion": "97337"
+    },
+    "timestamp": "2024-09-04T07:59:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757279-vgnvt",
+      "uid": "b728deed-07a6-4b3e-a39f-5d9c1d41bf14",
+      "apiVersion": "v1",
+      "resourceVersion": "97339",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:59:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 3.465s (3.465s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757279-vgnvt",
+      "uid": "b728deed-07a6-4b3e-a39f-5d9c1d41bf14",
+      "apiVersion": "v1",
+      "resourceVersion": "97339",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:59:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757279-vgnvt",
+      "uid": "b728deed-07a6-4b3e-a39f-5d9c1d41bf14",
+      "apiVersion": "v1",
+      "resourceVersion": "97339",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:59:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757279-vgnvt",
+      "uid": "b728deed-07a6-4b3e-a39f-5d9c1d41bf14",
+      "apiVersion": "v1",
+      "resourceVersion": "97339",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T07:59:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757279-vgnvt",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757279",
+      "uid": "0469a4ca-1e46-4371-bb56-c6a43b7fb2da",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97334"
+    },
+    "timestamp": "2024-09-04T07:59:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757279",
+      "uid": "0469a4ca-1e46-4371-bb56-c6a43b7fb2da",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97360"
+    },
+    "timestamp": "2024-09-04T07:59:10Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757280-wmqm4 to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757280-wmqm4",
+      "uid": "879127f3-d025-4422-9304-ca97b1845679",
+      "apiVersion": "v1",
+      "resourceVersion": "97409"
+    },
+    "timestamp": "2024-09-04T08:00:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757280-wmqm4",
+      "uid": "879127f3-d025-4422-9304-ca97b1845679",
+      "apiVersion": "v1",
+      "resourceVersion": "97411",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:00:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.944s (2.944s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757280-wmqm4",
+      "uid": "879127f3-d025-4422-9304-ca97b1845679",
+      "apiVersion": "v1",
+      "resourceVersion": "97411",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:00:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757280-wmqm4",
+      "uid": "879127f3-d025-4422-9304-ca97b1845679",
+      "apiVersion": "v1",
+      "resourceVersion": "97411",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:00:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757280-wmqm4",
+      "uid": "879127f3-d025-4422-9304-ca97b1845679",
+      "apiVersion": "v1",
+      "resourceVersion": "97411",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:00:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757280-wmqm4",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757280",
+      "uid": "41b45a73-da59-4445-bf17-61ff2eb12da5",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97407"
+    },
+    "timestamp": "2024-09-04T08:00:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757280",
+      "uid": "41b45a73-da59-4445-bf17-61ff2eb12da5",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97430"
+    },
+    "timestamp": "2024-09-04T08:00:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757281-xfv2k to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757281-xfv2k",
+      "uid": "8a3c57d8-e3d3-4d37-a998-7641c32a7da2",
+      "apiVersion": "v1",
+      "resourceVersion": "97482"
+    },
+    "timestamp": "2024-09-04T08:01:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757281-xfv2k",
+      "uid": "8a3c57d8-e3d3-4d37-a998-7641c32a7da2",
+      "apiVersion": "v1",
+      "resourceVersion": "97483",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:01:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 3.269s (3.269s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757281-xfv2k",
+      "uid": "8a3c57d8-e3d3-4d37-a998-7641c32a7da2",
+      "apiVersion": "v1",
+      "resourceVersion": "97483",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:01:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757281-xfv2k",
+      "uid": "8a3c57d8-e3d3-4d37-a998-7641c32a7da2",
+      "apiVersion": "v1",
+      "resourceVersion": "97483",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:01:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757281-xfv2k",
+      "uid": "8a3c57d8-e3d3-4d37-a998-7641c32a7da2",
+      "apiVersion": "v1",
+      "resourceVersion": "97483",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:01:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757281-xfv2k",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757281",
+      "uid": "3ded5152-bea2-455e-9832-bb8b5faa1e38",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97480"
+    },
+    "timestamp": "2024-09-04T08:01:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757281",
+      "uid": "3ded5152-bea2-455e-9832-bb8b5faa1e38",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97504"
+    },
+    "timestamp": "2024-09-04T08:01:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757282-4wsbv to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757282-4wsbv",
+      "uid": "34e3c317-84ba-40f3-a786-9aca14cfc65f",
+      "apiVersion": "v1",
+      "resourceVersion": "97555"
+    },
+    "timestamp": "2024-09-04T08:02:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757282-4wsbv",
+      "uid": "34e3c317-84ba-40f3-a786-9aca14cfc65f",
+      "apiVersion": "v1",
+      "resourceVersion": "97558",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:02:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.888s (2.888s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757282-4wsbv",
+      "uid": "34e3c317-84ba-40f3-a786-9aca14cfc65f",
+      "apiVersion": "v1",
+      "resourceVersion": "97558",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:02:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757282-4wsbv",
+      "uid": "34e3c317-84ba-40f3-a786-9aca14cfc65f",
+      "apiVersion": "v1",
+      "resourceVersion": "97558",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:02:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757282-4wsbv",
+      "uid": "34e3c317-84ba-40f3-a786-9aca14cfc65f",
+      "apiVersion": "v1",
+      "resourceVersion": "97558",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:02:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757282-4wsbv",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757282",
+      "uid": "4cf124f0-808c-4efa-b3b1-baf2f311c406",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97553"
+    },
+    "timestamp": "2024-09-04T08:02:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757282",
+      "uid": "4cf124f0-808c-4efa-b3b1-baf2f311c406",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97576"
+    },
+    "timestamp": "2024-09-04T08:02:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757283-pgmpc to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757283-pgmpc",
+      "uid": "d0dcd1df-a94f-405c-8a3c-1d8a1c8661a8",
+      "apiVersion": "v1",
+      "resourceVersion": "97626"
+    },
+    "timestamp": "2024-09-04T08:03:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757283-pgmpc",
+      "uid": "d0dcd1df-a94f-405c-8a3c-1d8a1c8661a8",
+      "apiVersion": "v1",
+      "resourceVersion": "97628",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:03:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 8.103s (8.103s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757283-pgmpc",
+      "uid": "d0dcd1df-a94f-405c-8a3c-1d8a1c8661a8",
+      "apiVersion": "v1",
+      "resourceVersion": "97628",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:03:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757283-pgmpc",
+      "uid": "d0dcd1df-a94f-405c-8a3c-1d8a1c8661a8",
+      "apiVersion": "v1",
+      "resourceVersion": "97628",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:03:10Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757283-pgmpc",
+      "uid": "d0dcd1df-a94f-405c-8a3c-1d8a1c8661a8",
+      "apiVersion": "v1",
+      "resourceVersion": "97628",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:03:10Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757283-pgmpc",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757283",
+      "uid": "9cf02791-4a8b-43d2-b49e-43fb87b6720a",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97624"
+    },
+    "timestamp": "2024-09-04T08:03:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757283",
+      "uid": "9cf02791-4a8b-43d2-b49e-43fb87b6720a",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97653"
+    },
+    "timestamp": "2024-09-04T08:03:14Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757284-brrnl to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757284-brrnl",
+      "uid": "2abce940-c828-4030-9854-9dbe84a1825d",
+      "apiVersion": "v1",
+      "resourceVersion": "97700"
+    },
+    "timestamp": "2024-09-04T08:04:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757284-brrnl",
+      "uid": "2abce940-c828-4030-9854-9dbe84a1825d",
+      "apiVersion": "v1",
+      "resourceVersion": "97701",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:04:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.755s (2.755s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757284-brrnl",
+      "uid": "2abce940-c828-4030-9854-9dbe84a1825d",
+      "apiVersion": "v1",
+      "resourceVersion": "97701",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:04:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757284-brrnl",
+      "uid": "2abce940-c828-4030-9854-9dbe84a1825d",
+      "apiVersion": "v1",
+      "resourceVersion": "97701",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:04:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757284-brrnl",
+      "uid": "2abce940-c828-4030-9854-9dbe84a1825d",
+      "apiVersion": "v1",
+      "resourceVersion": "97701",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:04:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757284-brrnl",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757284",
+      "uid": "1b79a8e9-9ceb-470c-b9aa-2edc8ae0475c",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97697"
+    },
+    "timestamp": "2024-09-04T08:04:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757284",
+      "uid": "1b79a8e9-9ceb-470c-b9aa-2edc8ae0475c",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97722"
+    },
+    "timestamp": "2024-09-04T08:04:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757285-gjltc to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757285-gjltc",
+      "uid": "ce1a495f-1258-417e-ae1b-0dc5e93720ef",
+      "apiVersion": "v1",
+      "resourceVersion": "97773"
+    },
+    "timestamp": "2024-09-04T08:05:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757285-gjltc",
+      "uid": "ce1a495f-1258-417e-ae1b-0dc5e93720ef",
+      "apiVersion": "v1",
+      "resourceVersion": "97776",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:05:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.835s (2.835s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757285-gjltc",
+      "uid": "ce1a495f-1258-417e-ae1b-0dc5e93720ef",
+      "apiVersion": "v1",
+      "resourceVersion": "97776",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:05:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757285-gjltc",
+      "uid": "ce1a495f-1258-417e-ae1b-0dc5e93720ef",
+      "apiVersion": "v1",
+      "resourceVersion": "97776",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:05:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757285-gjltc",
+      "uid": "ce1a495f-1258-417e-ae1b-0dc5e93720ef",
+      "apiVersion": "v1",
+      "resourceVersion": "97776",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:05:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757285-gjltc",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757285",
+      "uid": "b6e438af-d517-4ee2-94c3-868f91c3cc9d",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97771"
+    },
+    "timestamp": "2024-09-04T08:05:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757285",
+      "uid": "b6e438af-d517-4ee2-94c3-868f91c3cc9d",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97795"
+    },
+    "timestamp": "2024-09-04T08:05:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757286-xmnqh to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757286-xmnqh",
+      "uid": "b267ec43-efe3-42c8-84f2-45ac8ff196e4",
+      "apiVersion": "v1",
+      "resourceVersion": "97847"
+    },
+    "timestamp": "2024-09-04T08:06:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757286-xmnqh",
+      "uid": "b267ec43-efe3-42c8-84f2-45ac8ff196e4",
+      "apiVersion": "v1",
+      "resourceVersion": "97849",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:06:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.882s (2.882s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757286-xmnqh",
+      "uid": "b267ec43-efe3-42c8-84f2-45ac8ff196e4",
+      "apiVersion": "v1",
+      "resourceVersion": "97849",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:06:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757286-xmnqh",
+      "uid": "b267ec43-efe3-42c8-84f2-45ac8ff196e4",
+      "apiVersion": "v1",
+      "resourceVersion": "97849",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:06:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757286-xmnqh",
+      "uid": "b267ec43-efe3-42c8-84f2-45ac8ff196e4",
+      "apiVersion": "v1",
+      "resourceVersion": "97849",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:06:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757286-xmnqh",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757286",
+      "uid": "a35dd9df-2f2e-4fa0-bc62-a94d4b6b48ac",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97845"
+    },
+    "timestamp": "2024-09-04T08:06:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757286",
+      "uid": "a35dd9df-2f2e-4fa0-bc62-a94d4b6b48ac",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97867"
+    },
+    "timestamp": "2024-09-04T08:06:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757287-srwth to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757287-srwth",
+      "uid": "549f7ae4-d23c-4b14-b178-c629520a63fe",
+      "apiVersion": "v1",
+      "resourceVersion": "97918"
+    },
+    "timestamp": "2024-09-04T08:07:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757287-srwth",
+      "uid": "549f7ae4-d23c-4b14-b178-c629520a63fe",
+      "apiVersion": "v1",
+      "resourceVersion": "97919",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:07:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.864s (2.864s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757287-srwth",
+      "uid": "549f7ae4-d23c-4b14-b178-c629520a63fe",
+      "apiVersion": "v1",
+      "resourceVersion": "97919",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:07:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757287-srwth",
+      "uid": "549f7ae4-d23c-4b14-b178-c629520a63fe",
+      "apiVersion": "v1",
+      "resourceVersion": "97919",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:07:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757287-srwth",
+      "uid": "549f7ae4-d23c-4b14-b178-c629520a63fe",
+      "apiVersion": "v1",
+      "resourceVersion": "97919",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:07:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757287-srwth",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757287",
+      "uid": "95c9a200-ce4e-4a67-97f0-0e669eaa344c",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97916"
+    },
+    "timestamp": "2024-09-04T08:07:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757287",
+      "uid": "95c9a200-ce4e-4a67-97f0-0e669eaa344c",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97939"
+    },
+    "timestamp": "2024-09-04T08:07:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757288-chc57 to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757288-chc57",
+      "uid": "eff229bf-d141-4f77-a26b-b963f12271f5",
+      "apiVersion": "v1",
+      "resourceVersion": "97990"
+    },
+    "timestamp": "2024-09-04T08:08:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757288-chc57",
+      "uid": "eff229bf-d141-4f77-a26b-b963f12271f5",
+      "apiVersion": "v1",
+      "resourceVersion": "97992",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:08:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.895s (2.895s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757288-chc57",
+      "uid": "eff229bf-d141-4f77-a26b-b963f12271f5",
+      "apiVersion": "v1",
+      "resourceVersion": "97992",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:08:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757288-chc57",
+      "uid": "eff229bf-d141-4f77-a26b-b963f12271f5",
+      "apiVersion": "v1",
+      "resourceVersion": "97992",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:08:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757288-chc57",
+      "uid": "eff229bf-d141-4f77-a26b-b963f12271f5",
+      "apiVersion": "v1",
+      "resourceVersion": "97992",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:08:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757288-chc57",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757288",
+      "uid": "c420968f-282c-4060-85c9-6fc635e97180",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "97988"
+    },
+    "timestamp": "2024-09-04T08:08:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757288",
+      "uid": "c420968f-282c-4060-85c9-6fc635e97180",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98011"
+    },
+    "timestamp": "2024-09-04T08:08:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757289-hmqnc to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757289-hmqnc",
+      "uid": "ec560619-3a86-476c-90a0-ba1532682d0c",
+      "apiVersion": "v1",
+      "resourceVersion": "98065"
+    },
+    "timestamp": "2024-09-04T08:09:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757289-hmqnc",
+      "uid": "ec560619-3a86-476c-90a0-ba1532682d0c",
+      "apiVersion": "v1",
+      "resourceVersion": "98066",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:09:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.771s (2.771s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757289-hmqnc",
+      "uid": "ec560619-3a86-476c-90a0-ba1532682d0c",
+      "apiVersion": "v1",
+      "resourceVersion": "98066",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:09:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757289-hmqnc",
+      "uid": "ec560619-3a86-476c-90a0-ba1532682d0c",
+      "apiVersion": "v1",
+      "resourceVersion": "98066",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:09:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757289-hmqnc",
+      "uid": "ec560619-3a86-476c-90a0-ba1532682d0c",
+      "apiVersion": "v1",
+      "resourceVersion": "98066",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:09:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757289-hmqnc",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757289",
+      "uid": "c92d0296-9d76-418f-b2dc-34042c1be350",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98062"
+    },
+    "timestamp": "2024-09-04T08:09:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757289",
+      "uid": "c92d0296-9d76-418f-b2dc-34042c1be350",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98085"
+    },
+    "timestamp": "2024-09-04T08:09:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757290-2xz9z to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757290-2xz9z",
+      "uid": "a77ba1b7-4e7b-4f65-90c2-b92f3d10561c",
+      "apiVersion": "v1",
+      "resourceVersion": "98137"
+    },
+    "timestamp": "2024-09-04T08:10:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757290-2xz9z",
+      "uid": "a77ba1b7-4e7b-4f65-90c2-b92f3d10561c",
+      "apiVersion": "v1",
+      "resourceVersion": "98141",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:10:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.652s (2.653s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757290-2xz9z",
+      "uid": "a77ba1b7-4e7b-4f65-90c2-b92f3d10561c",
+      "apiVersion": "v1",
+      "resourceVersion": "98141",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:10:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757290-2xz9z",
+      "uid": "a77ba1b7-4e7b-4f65-90c2-b92f3d10561c",
+      "apiVersion": "v1",
+      "resourceVersion": "98141",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:10:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757290-2xz9z",
+      "uid": "a77ba1b7-4e7b-4f65-90c2-b92f3d10561c",
+      "apiVersion": "v1",
+      "resourceVersion": "98141",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:10:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757290-2xz9z",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757290",
+      "uid": "c434c105-fab0-49ce-a5dd-66a6bf5c5d86",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98135"
+    },
+    "timestamp": "2024-09-04T08:10:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757290",
+      "uid": "c434c105-fab0-49ce-a5dd-66a6bf5c5d86",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98157"
+    },
+    "timestamp": "2024-09-04T08:10:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757291-75dkv to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757291-75dkv",
+      "uid": "8c8f71bd-9349-431f-955f-0cc95f493668",
+      "apiVersion": "v1",
+      "resourceVersion": "98208"
+    },
+    "timestamp": "2024-09-04T08:11:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757291-75dkv",
+      "uid": "8c8f71bd-9349-431f-955f-0cc95f493668",
+      "apiVersion": "v1",
+      "resourceVersion": "98209",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:11:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.784s (2.784s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757291-75dkv",
+      "uid": "8c8f71bd-9349-431f-955f-0cc95f493668",
+      "apiVersion": "v1",
+      "resourceVersion": "98209",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:11:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757291-75dkv",
+      "uid": "8c8f71bd-9349-431f-955f-0cc95f493668",
+      "apiVersion": "v1",
+      "resourceVersion": "98209",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:11:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757291-75dkv",
+      "uid": "8c8f71bd-9349-431f-955f-0cc95f493668",
+      "apiVersion": "v1",
+      "resourceVersion": "98209",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:11:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757291-75dkv",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757291",
+      "uid": "45099b93-4391-4c07-8674-de44fbcc3d83",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98206"
+    },
+    "timestamp": "2024-09-04T08:11:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757291",
+      "uid": "45099b93-4391-4c07-8674-de44fbcc3d83",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98230"
+    },
+    "timestamp": "2024-09-04T08:11:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757292-x4jp7 to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757292-x4jp7",
+      "uid": "8e981fac-4fba-4119-9a80-87d4ec6876e9",
+      "apiVersion": "v1",
+      "resourceVersion": "98282"
+    },
+    "timestamp": "2024-09-04T08:12:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757292-x4jp7",
+      "uid": "8e981fac-4fba-4119-9a80-87d4ec6876e9",
+      "apiVersion": "v1",
+      "resourceVersion": "98283",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:12:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.896s (2.896s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757292-x4jp7",
+      "uid": "8e981fac-4fba-4119-9a80-87d4ec6876e9",
+      "apiVersion": "v1",
+      "resourceVersion": "98283",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:12:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757292-x4jp7",
+      "uid": "8e981fac-4fba-4119-9a80-87d4ec6876e9",
+      "apiVersion": "v1",
+      "resourceVersion": "98283",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:12:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757292-x4jp7",
+      "uid": "8e981fac-4fba-4119-9a80-87d4ec6876e9",
+      "apiVersion": "v1",
+      "resourceVersion": "98283",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:12:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757292-x4jp7",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757292",
+      "uid": "d2f2d223-3839-410d-81a4-a443374613c2",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98280"
+    },
+    "timestamp": "2024-09-04T08:12:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757292",
+      "uid": "d2f2d223-3839-410d-81a4-a443374613c2",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98303"
+    },
+    "timestamp": "2024-09-04T08:12:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757293-flngb to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757293-flngb",
+      "uid": "431b0448-58a3-49a3-adcd-c4dc482f001c",
+      "apiVersion": "v1",
+      "resourceVersion": "98354"
+    },
+    "timestamp": "2024-09-04T08:13:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757293-flngb",
+      "uid": "431b0448-58a3-49a3-adcd-c4dc482f001c",
+      "apiVersion": "v1",
+      "resourceVersion": "98356",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:13:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.913s (2.913s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757293-flngb",
+      "uid": "431b0448-58a3-49a3-adcd-c4dc482f001c",
+      "apiVersion": "v1",
+      "resourceVersion": "98356",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:13:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757293-flngb",
+      "uid": "431b0448-58a3-49a3-adcd-c4dc482f001c",
+      "apiVersion": "v1",
+      "resourceVersion": "98356",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:13:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757293-flngb",
+      "uid": "431b0448-58a3-49a3-adcd-c4dc482f001c",
+      "apiVersion": "v1",
+      "resourceVersion": "98356",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:13:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757293-flngb",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757293",
+      "uid": "f5bd2d88-05cc-428e-8b6d-39102f8dab59",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98352"
+    },
+    "timestamp": "2024-09-04T08:13:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757293",
+      "uid": "f5bd2d88-05cc-428e-8b6d-39102f8dab59",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98376"
+    },
+    "timestamp": "2024-09-04T08:13:12Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757294-phzt4 to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757294-phzt4",
+      "uid": "e3a40f4a-0ac6-4c5b-89e9-7c31080fe4ae",
+      "apiVersion": "v1",
+      "resourceVersion": "98428"
+    },
+    "timestamp": "2024-09-04T08:14:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757294-phzt4",
+      "uid": "e3a40f4a-0ac6-4c5b-89e9-7c31080fe4ae",
+      "apiVersion": "v1",
+      "resourceVersion": "98431",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:14:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 3.188s (3.188s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757294-phzt4",
+      "uid": "e3a40f4a-0ac6-4c5b-89e9-7c31080fe4ae",
+      "apiVersion": "v1",
+      "resourceVersion": "98431",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:14:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757294-phzt4",
+      "uid": "e3a40f4a-0ac6-4c5b-89e9-7c31080fe4ae",
+      "apiVersion": "v1",
+      "resourceVersion": "98431",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:14:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757294-phzt4",
+      "uid": "e3a40f4a-0ac6-4c5b-89e9-7c31080fe4ae",
+      "apiVersion": "v1",
+      "resourceVersion": "98431",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:14:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757294-phzt4",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757294",
+      "uid": "03a4531f-4fe0-4d90-a29f-63ec3fafea6a",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98425"
+    },
+    "timestamp": "2024-09-04T08:14:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757294",
+      "uid": "03a4531f-4fe0-4d90-a29f-63ec3fafea6a",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98450"
+    },
+    "timestamp": "2024-09-04T08:14:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757295-ntjmf to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757295-ntjmf",
+      "uid": "a4996a96-abbf-4bbf-a869-6f0e16d5344b",
+      "apiVersion": "v1",
+      "resourceVersion": "98500"
+    },
+    "timestamp": "2024-09-04T08:15:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757295-ntjmf",
+      "uid": "a4996a96-abbf-4bbf-a869-6f0e16d5344b",
+      "apiVersion": "v1",
+      "resourceVersion": "98503",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:15:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 3.252s (3.252s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757295-ntjmf",
+      "uid": "a4996a96-abbf-4bbf-a869-6f0e16d5344b",
+      "apiVersion": "v1",
+      "resourceVersion": "98503",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:15:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757295-ntjmf",
+      "uid": "a4996a96-abbf-4bbf-a869-6f0e16d5344b",
+      "apiVersion": "v1",
+      "resourceVersion": "98503",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:15:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757295-ntjmf",
+      "uid": "a4996a96-abbf-4bbf-a869-6f0e16d5344b",
+      "apiVersion": "v1",
+      "resourceVersion": "98503",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:15:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757295-ntjmf",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757295",
+      "uid": "b522cd49-085a-4d2f-a001-ac7d2face3f4",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98498"
+    },
+    "timestamp": "2024-09-04T08:15:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757295",
+      "uid": "b522cd49-085a-4d2f-a001-ac7d2face3f4",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98522"
+    },
+    "timestamp": "2024-09-04T08:15:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757296-vh8qc to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757296-vh8qc",
+      "uid": "764bd48e-5858-4fca-9314-8b5bcdf1b5e8",
+      "apiVersion": "v1",
+      "resourceVersion": "98572"
+    },
+    "timestamp": "2024-09-04T08:16:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757296-vh8qc",
+      "uid": "764bd48e-5858-4fca-9314-8b5bcdf1b5e8",
+      "apiVersion": "v1",
+      "resourceVersion": "98574",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:16:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.712s (2.712s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757296-vh8qc",
+      "uid": "764bd48e-5858-4fca-9314-8b5bcdf1b5e8",
+      "apiVersion": "v1",
+      "resourceVersion": "98574",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:16:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757296-vh8qc",
+      "uid": "764bd48e-5858-4fca-9314-8b5bcdf1b5e8",
+      "apiVersion": "v1",
+      "resourceVersion": "98574",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:16:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757296-vh8qc",
+      "uid": "764bd48e-5858-4fca-9314-8b5bcdf1b5e8",
+      "apiVersion": "v1",
+      "resourceVersion": "98574",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:16:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757296-vh8qc",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757296",
+      "uid": "5e84caf5-836e-498f-ab63-3749a914b326",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98570"
+    },
+    "timestamp": "2024-09-04T08:16:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757296",
+      "uid": "5e84caf5-836e-498f-ab63-3749a914b326",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98594"
+    },
+    "timestamp": "2024-09-04T08:16:07Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757297-tdp2s to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757297-tdp2s",
+      "uid": "b18d08aa-06bf-4ea6-9969-2d3bab3d99b8",
+      "apiVersion": "v1",
+      "resourceVersion": "98645"
+    },
+    "timestamp": "2024-09-04T08:17:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757297-tdp2s",
+      "uid": "b18d08aa-06bf-4ea6-9969-2d3bab3d99b8",
+      "apiVersion": "v1",
+      "resourceVersion": "98647",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:17:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.736s (2.736s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757297-tdp2s",
+      "uid": "b18d08aa-06bf-4ea6-9969-2d3bab3d99b8",
+      "apiVersion": "v1",
+      "resourceVersion": "98647",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:17:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757297-tdp2s",
+      "uid": "b18d08aa-06bf-4ea6-9969-2d3bab3d99b8",
+      "apiVersion": "v1",
+      "resourceVersion": "98647",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:17:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757297-tdp2s",
+      "uid": "b18d08aa-06bf-4ea6-9969-2d3bab3d99b8",
+      "apiVersion": "v1",
+      "resourceVersion": "98647",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:17:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757297-tdp2s",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757297",
+      "uid": "feaece88-fca7-4e96-b9fc-2b3e65275866",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98643"
+    },
+    "timestamp": "2024-09-04T08:17:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757297",
+      "uid": "feaece88-fca7-4e96-b9fc-2b3e65275866",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98667"
+    },
+    "timestamp": "2024-09-04T08:17:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757298-2xvqx to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757298-2xvqx",
+      "uid": "ad9f70ab-14ac-4528-b35d-5752dfed19b6",
+      "apiVersion": "v1",
+      "resourceVersion": "98717"
+    },
+    "timestamp": "2024-09-04T08:18:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757298-2xvqx",
+      "uid": "ad9f70ab-14ac-4528-b35d-5752dfed19b6",
+      "apiVersion": "v1",
+      "resourceVersion": "98718",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:18:03Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 3.186s (3.186s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757298-2xvqx",
+      "uid": "ad9f70ab-14ac-4528-b35d-5752dfed19b6",
+      "apiVersion": "v1",
+      "resourceVersion": "98718",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:18:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757298-2xvqx",
+      "uid": "ad9f70ab-14ac-4528-b35d-5752dfed19b6",
+      "apiVersion": "v1",
+      "resourceVersion": "98718",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:18:07Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757298-2xvqx",
+      "uid": "ad9f70ab-14ac-4528-b35d-5752dfed19b6",
+      "apiVersion": "v1",
+      "resourceVersion": "98718",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:18:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757298-2xvqx",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757298",
+      "uid": "32b45d3f-f8a6-4fd3-8671-6dec1140fd52",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98715"
+    },
+    "timestamp": "2024-09-04T08:18:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757298",
+      "uid": "32b45d3f-f8a6-4fd3-8671-6dec1140fd52",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98743"
+    },
+    "timestamp": "2024-09-04T08:18:14Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757299-gflsr to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757299-gflsr",
+      "uid": "1b8db034-b0f8-484c-8f42-d18134c1ef77",
+      "apiVersion": "v1",
+      "resourceVersion": "98790"
+    },
+    "timestamp": "2024-09-04T08:19:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757299-gflsr",
+      "uid": "1b8db034-b0f8-484c-8f42-d18134c1ef77",
+      "apiVersion": "v1",
+      "resourceVersion": "98791",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:19:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.685s (2.685s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757299-gflsr",
+      "uid": "1b8db034-b0f8-484c-8f42-d18134c1ef77",
+      "apiVersion": "v1",
+      "resourceVersion": "98791",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:19:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757299-gflsr",
+      "uid": "1b8db034-b0f8-484c-8f42-d18134c1ef77",
+      "apiVersion": "v1",
+      "resourceVersion": "98791",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:19:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757299-gflsr",
+      "uid": "1b8db034-b0f8-484c-8f42-d18134c1ef77",
+      "apiVersion": "v1",
+      "resourceVersion": "98791",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:19:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757299-gflsr",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757299",
+      "uid": "fe95917d-b4db-4984-bded-1b2c5447b33f",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98789"
+    },
+    "timestamp": "2024-09-04T08:19:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757299",
+      "uid": "fe95917d-b4db-4984-bded-1b2c5447b33f",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98813"
+    },
+    "timestamp": "2024-09-04T08:19:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757300-9knlf to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757300-9knlf",
+      "uid": "4469324a-3caa-4088-b64a-bfe3bed2ffcc",
+      "apiVersion": "v1",
+      "resourceVersion": "98863"
+    },
+    "timestamp": "2024-09-04T08:20:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757300-9knlf",
+      "uid": "4469324a-3caa-4088-b64a-bfe3bed2ffcc",
+      "apiVersion": "v1",
+      "resourceVersion": "98867",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:20:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.96s (2.96s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757300-9knlf",
+      "uid": "4469324a-3caa-4088-b64a-bfe3bed2ffcc",
+      "apiVersion": "v1",
+      "resourceVersion": "98867",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:20:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757300-9knlf",
+      "uid": "4469324a-3caa-4088-b64a-bfe3bed2ffcc",
+      "apiVersion": "v1",
+      "resourceVersion": "98867",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:20:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757300-9knlf",
+      "uid": "4469324a-3caa-4088-b64a-bfe3bed2ffcc",
+      "apiVersion": "v1",
+      "resourceVersion": "98867",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:20:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757300-9knlf",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757300",
+      "uid": "ca3eacaf-fd4c-4492-be1d-25e5e22fc313",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98862"
+    },
+    "timestamp": "2024-09-04T08:20:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757300",
+      "uid": "ca3eacaf-fd4c-4492-be1d-25e5e22fc313",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98886"
+    },
+    "timestamp": "2024-09-04T08:20:10Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757301-rmg4m to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757301-rmg4m",
+      "uid": "38090678-00f2-4e3e-8ae3-4ee446b89642",
+      "apiVersion": "v1",
+      "resourceVersion": "98937"
+    },
+    "timestamp": "2024-09-04T08:21:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757301-rmg4m",
+      "uid": "38090678-00f2-4e3e-8ae3-4ee446b89642",
+      "apiVersion": "v1",
+      "resourceVersion": "98939",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:21:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 3.297s (3.297s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757301-rmg4m",
+      "uid": "38090678-00f2-4e3e-8ae3-4ee446b89642",
+      "apiVersion": "v1",
+      "resourceVersion": "98939",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:21:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757301-rmg4m",
+      "uid": "38090678-00f2-4e3e-8ae3-4ee446b89642",
+      "apiVersion": "v1",
+      "resourceVersion": "98939",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:21:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757301-rmg4m",
+      "uid": "38090678-00f2-4e3e-8ae3-4ee446b89642",
+      "apiVersion": "v1",
+      "resourceVersion": "98939",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:21:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757301-rmg4m",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757301",
+      "uid": "c29bf1c4-19d8-4216-b3bb-e4c1d353354b",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98935"
+    },
+    "timestamp": "2024-09-04T08:21:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757301",
+      "uid": "c29bf1c4-19d8-4216-b3bb-e4c1d353354b",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "98958"
+    },
+    "timestamp": "2024-09-04T08:21:10Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757302-plc8r to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757302-plc8r",
+      "uid": "29e4de64-6fa7-4589-93ae-d69585cdedf6",
+      "apiVersion": "v1",
+      "resourceVersion": "99009"
+    },
+    "timestamp": "2024-09-04T08:22:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757302-plc8r",
+      "uid": "29e4de64-6fa7-4589-93ae-d69585cdedf6",
+      "apiVersion": "v1",
+      "resourceVersion": "99012",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:22:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.954s (2.954s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757302-plc8r",
+      "uid": "29e4de64-6fa7-4589-93ae-d69585cdedf6",
+      "apiVersion": "v1",
+      "resourceVersion": "99012",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:22:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757302-plc8r",
+      "uid": "29e4de64-6fa7-4589-93ae-d69585cdedf6",
+      "apiVersion": "v1",
+      "resourceVersion": "99012",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:22:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757302-plc8r",
+      "uid": "29e4de64-6fa7-4589-93ae-d69585cdedf6",
+      "apiVersion": "v1",
+      "resourceVersion": "99012",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:22:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757302-plc8r",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757302",
+      "uid": "d726b8ef-00cb-4ba2-b018-73406364d8ba",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99007"
+    },
+    "timestamp": "2024-09-04T08:22:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757302",
+      "uid": "d726b8ef-00cb-4ba2-b018-73406364d8ba",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99030"
+    },
+    "timestamp": "2024-09-04T08:22:11Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757303-pvqjz to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757303-pvqjz",
+      "uid": "10326659-364c-40df-b725-7b8e67bf5f85",
+      "apiVersion": "v1",
+      "resourceVersion": "99080"
+    },
+    "timestamp": "2024-09-04T08:23:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757303-pvqjz",
+      "uid": "10326659-364c-40df-b725-7b8e67bf5f85",
+      "apiVersion": "v1",
+      "resourceVersion": "99082",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:23:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.642s (2.642s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757303-pvqjz",
+      "uid": "10326659-364c-40df-b725-7b8e67bf5f85",
+      "apiVersion": "v1",
+      "resourceVersion": "99082",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:23:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757303-pvqjz",
+      "uid": "10326659-364c-40df-b725-7b8e67bf5f85",
+      "apiVersion": "v1",
+      "resourceVersion": "99082",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:23:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757303-pvqjz",
+      "uid": "10326659-364c-40df-b725-7b8e67bf5f85",
+      "apiVersion": "v1",
+      "resourceVersion": "99082",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:23:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757303-pvqjz",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757303",
+      "uid": "7fa663c2-1d6e-44ad-89eb-c9090aa557d8",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99078"
+    },
+    "timestamp": "2024-09-04T08:23:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757303",
+      "uid": "7fa663c2-1d6e-44ad-89eb-c9090aa557d8",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99100"
+    },
+    "timestamp": "2024-09-04T08:23:07Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757304-brpfq to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757304-brpfq",
+      "uid": "90caf12b-6a4b-4f6d-828d-86009d40000f",
+      "apiVersion": "v1",
+      "resourceVersion": "99153"
+    },
+    "timestamp": "2024-09-04T08:24:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757304-brpfq",
+      "uid": "90caf12b-6a4b-4f6d-828d-86009d40000f",
+      "apiVersion": "v1",
+      "resourceVersion": "99156",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:24:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 3.553s (3.553s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757304-brpfq",
+      "uid": "90caf12b-6a4b-4f6d-828d-86009d40000f",
+      "apiVersion": "v1",
+      "resourceVersion": "99156",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:24:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757304-brpfq",
+      "uid": "90caf12b-6a4b-4f6d-828d-86009d40000f",
+      "apiVersion": "v1",
+      "resourceVersion": "99156",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:24:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757304-brpfq",
+      "uid": "90caf12b-6a4b-4f6d-828d-86009d40000f",
+      "apiVersion": "v1",
+      "resourceVersion": "99156",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:24:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757304-brpfq",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757304",
+      "uid": "261f37da-1765-47e8-9947-e998ec6c8ef9",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99151"
+    },
+    "timestamp": "2024-09-04T08:24:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757304",
+      "uid": "261f37da-1765-47e8-9947-e998ec6c8ef9",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99175"
+    },
+    "timestamp": "2024-09-04T08:24:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757305-zp6xz to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757305-zp6xz",
+      "uid": "7dc9f0dd-da01-4288-b768-a9801f1422d8",
+      "apiVersion": "v1",
+      "resourceVersion": "99227"
+    },
+    "timestamp": "2024-09-04T08:25:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757305-zp6xz",
+      "uid": "7dc9f0dd-da01-4288-b768-a9801f1422d8",
+      "apiVersion": "v1",
+      "resourceVersion": "99228",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:25:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.649s (2.649s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757305-zp6xz",
+      "uid": "7dc9f0dd-da01-4288-b768-a9801f1422d8",
+      "apiVersion": "v1",
+      "resourceVersion": "99228",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:25:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757305-zp6xz",
+      "uid": "7dc9f0dd-da01-4288-b768-a9801f1422d8",
+      "apiVersion": "v1",
+      "resourceVersion": "99228",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:25:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757305-zp6xz",
+      "uid": "7dc9f0dd-da01-4288-b768-a9801f1422d8",
+      "apiVersion": "v1",
+      "resourceVersion": "99228",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:25:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757305-zp6xz",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757305",
+      "uid": "f0fcfe4d-5000-48ba-994b-1fcec95b691d",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99225"
+    },
+    "timestamp": "2024-09-04T08:25:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757305",
+      "uid": "f0fcfe4d-5000-48ba-994b-1fcec95b691d",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99248"
+    },
+    "timestamp": "2024-09-04T08:25:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757306-6qf7c to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757306-6qf7c",
+      "uid": "faf6adeb-6a79-4494-a831-f0e1252531da",
+      "apiVersion": "v1",
+      "resourceVersion": "99299"
+    },
+    "timestamp": "2024-09-04T08:26:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757306-6qf7c",
+      "uid": "faf6adeb-6a79-4494-a831-f0e1252531da",
+      "apiVersion": "v1",
+      "resourceVersion": "99301",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:26:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.805s (2.805s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757306-6qf7c",
+      "uid": "faf6adeb-6a79-4494-a831-f0e1252531da",
+      "apiVersion": "v1",
+      "resourceVersion": "99301",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:26:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757306-6qf7c",
+      "uid": "faf6adeb-6a79-4494-a831-f0e1252531da",
+      "apiVersion": "v1",
+      "resourceVersion": "99301",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:26:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757306-6qf7c",
+      "uid": "faf6adeb-6a79-4494-a831-f0e1252531da",
+      "apiVersion": "v1",
+      "resourceVersion": "99301",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:26:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757306-6qf7c",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757306",
+      "uid": "bdedd29a-8a4e-4eca-96fb-fc6bc050f884",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99297"
+    },
+    "timestamp": "2024-09-04T08:26:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757306",
+      "uid": "bdedd29a-8a4e-4eca-96fb-fc6bc050f884",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99321"
+    },
+    "timestamp": "2024-09-04T08:26:10Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757307-bptd8 to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757307-bptd8",
+      "uid": "e288ad03-9b35-4ab5-814f-da9474bea4c2",
+      "apiVersion": "v1",
+      "resourceVersion": "99371"
+    },
+    "timestamp": "2024-09-04T08:27:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757307-bptd8",
+      "uid": "e288ad03-9b35-4ab5-814f-da9474bea4c2",
+      "apiVersion": "v1",
+      "resourceVersion": "99373",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:27:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.71s (2.71s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757307-bptd8",
+      "uid": "e288ad03-9b35-4ab5-814f-da9474bea4c2",
+      "apiVersion": "v1",
+      "resourceVersion": "99373",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:27:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757307-bptd8",
+      "uid": "e288ad03-9b35-4ab5-814f-da9474bea4c2",
+      "apiVersion": "v1",
+      "resourceVersion": "99373",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:27:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757307-bptd8",
+      "uid": "e288ad03-9b35-4ab5-814f-da9474bea4c2",
+      "apiVersion": "v1",
+      "resourceVersion": "99373",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:27:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757307-bptd8",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757307",
+      "uid": "e9cfb84b-e055-4f07-8112-918a21558f1c",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99370"
+    },
+    "timestamp": "2024-09-04T08:27:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757307",
+      "uid": "e9cfb84b-e055-4f07-8112-918a21558f1c",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99392"
+    },
+    "timestamp": "2024-09-04T08:27:08Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757308-7jwt7 to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757308-7jwt7",
+      "uid": "55e37e9e-b7e9-4858-bc40-0d4ff77b3891",
+      "apiVersion": "v1",
+      "resourceVersion": "99444"
+    },
+    "timestamp": "2024-09-04T08:28:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757308-7jwt7",
+      "uid": "55e37e9e-b7e9-4858-bc40-0d4ff77b3891",
+      "apiVersion": "v1",
+      "resourceVersion": "99445",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:28:01Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.903s (2.903s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757308-7jwt7",
+      "uid": "55e37e9e-b7e9-4858-bc40-0d4ff77b3891",
+      "apiVersion": "v1",
+      "resourceVersion": "99445",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:28:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757308-7jwt7",
+      "uid": "55e37e9e-b7e9-4858-bc40-0d4ff77b3891",
+      "apiVersion": "v1",
+      "resourceVersion": "99445",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:28:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757308-7jwt7",
+      "uid": "55e37e9e-b7e9-4858-bc40-0d4ff77b3891",
+      "apiVersion": "v1",
+      "resourceVersion": "99445",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:28:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757308-7jwt7",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757308",
+      "uid": "d2ef59e7-c041-4464-a00e-dec2706423e3",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99442"
+    },
+    "timestamp": "2024-09-04T08:28:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757308",
+      "uid": "d2ef59e7-c041-4464-a00e-dec2706423e3",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99464"
+    },
+    "timestamp": "2024-09-04T08:28:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757309-wjk8h to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757309-wjk8h",
+      "uid": "11aa3713-8e15-421b-9f37-d07198cc9b3d",
+      "apiVersion": "v1",
+      "resourceVersion": "99518"
+    },
+    "timestamp": "2024-09-04T08:29:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757309-wjk8h",
+      "uid": "11aa3713-8e15-421b-9f37-d07198cc9b3d",
+      "apiVersion": "v1",
+      "resourceVersion": "99519",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:29:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.587s (2.587s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757309-wjk8h",
+      "uid": "11aa3713-8e15-421b-9f37-d07198cc9b3d",
+      "apiVersion": "v1",
+      "resourceVersion": "99519",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:29:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757309-wjk8h",
+      "uid": "11aa3713-8e15-421b-9f37-d07198cc9b3d",
+      "apiVersion": "v1",
+      "resourceVersion": "99519",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:29:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757309-wjk8h",
+      "uid": "11aa3713-8e15-421b-9f37-d07198cc9b3d",
+      "apiVersion": "v1",
+      "resourceVersion": "99519",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:29:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757309-wjk8h",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757309",
+      "uid": "0cdc408e-7546-47f3-a67f-493d21a5ae31",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99514"
+    },
+    "timestamp": "2024-09-04T08:29:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757309",
+      "uid": "0cdc408e-7546-47f3-a67f-493d21a5ae31",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99539"
+    },
+    "timestamp": "2024-09-04T08:29:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757310-ccqj7 to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757310-ccqj7",
+      "uid": "8d6bd03e-4bd8-4148-93f4-63b0ed1cd9a6",
+      "apiVersion": "v1",
+      "resourceVersion": "99590"
+    },
+    "timestamp": "2024-09-04T08:30:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757310-ccqj7",
+      "uid": "8d6bd03e-4bd8-4148-93f4-63b0ed1cd9a6",
+      "apiVersion": "v1",
+      "resourceVersion": "99593",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:30:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.953s (2.953s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757310-ccqj7",
+      "uid": "8d6bd03e-4bd8-4148-93f4-63b0ed1cd9a6",
+      "apiVersion": "v1",
+      "resourceVersion": "99593",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:30:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757310-ccqj7",
+      "uid": "8d6bd03e-4bd8-4148-93f4-63b0ed1cd9a6",
+      "apiVersion": "v1",
+      "resourceVersion": "99593",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:30:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757310-ccqj7",
+      "uid": "8d6bd03e-4bd8-4148-93f4-63b0ed1cd9a6",
+      "apiVersion": "v1",
+      "resourceVersion": "99593",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:30:06Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757310-ccqj7",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757310",
+      "uid": "8dcb9bb6-6f3d-415d-8277-b80e1cb6791f",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99588"
+    },
+    "timestamp": "2024-09-04T08:30:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757310",
+      "uid": "8dcb9bb6-6f3d-415d-8277-b80e1cb6791f",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99612"
+    },
+    "timestamp": "2024-09-04T08:30:11Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757311-pmc2m to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757311-pmc2m",
+      "uid": "2b297c4e-0a04-4819-b534-bb14b550b065",
+      "apiVersion": "v1",
+      "resourceVersion": "99662"
+    },
+    "timestamp": "2024-09-04T08:31:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757311-pmc2m",
+      "uid": "2b297c4e-0a04-4819-b534-bb14b550b065",
+      "apiVersion": "v1",
+      "resourceVersion": "99664",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:31:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 7.813s (7.813s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757311-pmc2m",
+      "uid": "2b297c4e-0a04-4819-b534-bb14b550b065",
+      "apiVersion": "v1",
+      "resourceVersion": "99664",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:31:10Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757311-pmc2m",
+      "uid": "2b297c4e-0a04-4819-b534-bb14b550b065",
+      "apiVersion": "v1",
+      "resourceVersion": "99664",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:31:10Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757311-pmc2m",
+      "uid": "2b297c4e-0a04-4819-b534-bb14b550b065",
+      "apiVersion": "v1",
+      "resourceVersion": "99664",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:31:11Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757311-pmc2m",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757311",
+      "uid": "083fd668-e9ad-4267-8ffd-03aaa4b9f548",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99660"
+    },
+    "timestamp": "2024-09-04T08:31:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757311",
+      "uid": "083fd668-e9ad-4267-8ffd-03aaa4b9f548",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99688"
+    },
+    "timestamp": "2024-09-04T08:31:14Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757312-mpgfd to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757312-mpgfd",
+      "uid": "c66f525e-538b-4fdb-839d-70dfaea7026f",
+      "apiVersion": "v1",
+      "resourceVersion": "99735"
+    },
+    "timestamp": "2024-09-04T08:32:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757312-mpgfd",
+      "uid": "c66f525e-538b-4fdb-839d-70dfaea7026f",
+      "apiVersion": "v1",
+      "resourceVersion": "99736",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:32:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.742s (2.742s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757312-mpgfd",
+      "uid": "c66f525e-538b-4fdb-839d-70dfaea7026f",
+      "apiVersion": "v1",
+      "resourceVersion": "99736",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:32:04Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757312-mpgfd",
+      "uid": "c66f525e-538b-4fdb-839d-70dfaea7026f",
+      "apiVersion": "v1",
+      "resourceVersion": "99736",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:32:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757312-mpgfd",
+      "uid": "c66f525e-538b-4fdb-839d-70dfaea7026f",
+      "apiVersion": "v1",
+      "resourceVersion": "99736",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:32:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757312-mpgfd",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757312",
+      "uid": "1d3296b9-048c-484d-b4b9-62c3b735f155",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99733"
+    },
+    "timestamp": "2024-09-04T08:32:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Completed",
+    "message": "Job completed",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757312",
+      "uid": "1d3296b9-048c-484d-b4b9-62c3b735f155",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99757"
+    },
+    "timestamp": "2024-09-04T08:32:09Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Scheduled",
+    "message": "Successfully assigned default/my-cronjob-28757313-872vf to minikube",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757313-872vf",
+      "uid": "d961b411-4b14-4f10-9a3e-6449965aa013",
+      "apiVersion": "v1",
+      "resourceVersion": "99807"
+    },
+    "timestamp": "2024-09-04T08:33:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulling",
+    "message": "Pulling image \"busybox\"",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757313-872vf",
+      "uid": "d961b411-4b14-4f10-9a3e-6449965aa013",
+      "apiVersion": "v1",
+      "resourceVersion": "99808",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:33:02Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Pulled",
+    "message": "Successfully pulled image \"busybox\" in 2.904s (2.904s including waiting). Image size: 4261574 bytes.",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757313-872vf",
+      "uid": "d961b411-4b14-4f10-9a3e-6449965aa013",
+      "apiVersion": "v1",
+      "resourceVersion": "99808",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:33:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Created",
+    "message": "Created container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757313-872vf",
+      "uid": "d961b411-4b14-4f10-9a3e-6449965aa013",
+      "apiVersion": "v1",
+      "resourceVersion": "99808",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:33:05Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "Started",
+    "message": "Started container my-cronjob",
+    "involved_object": {
+      "kind": "Pod",
+      "namespace": "default",
+      "name": "my-cronjob-28757313-872vf",
+      "uid": "d961b411-4b14-4f10-9a3e-6449965aa013",
+      "apiVersion": "v1",
+      "resourceVersion": "99808",
+      "fieldPath": "spec.containers{my-cronjob}"
+    },
+    "timestamp": "2024-09-04T08:33:07Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: my-cronjob-28757313-872vf",
+    "involved_object": {
+      "kind": "Job",
+      "namespace": "default",
+      "name": "my-cronjob-28757313",
+      "uid": "401e745c-18c6-4602-b967-0b20c1d88127",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "99805"
+    },
+    "timestamp": "2024-09-04T08:33:00Z"
+  },
+  {
+    "event_type": "Normal",
+    "reason": "SuccessfulCreate",
+    "message": "(combined from similar events): Created job my-cronjob-28757309",
+    "involved_object": {
+      "kind": "CronJob",
+      "namespace": "default",
+      "name": "my-cronjob",
+      "uid": "420deaa9-2d0c-4a19-a5c4-388dc0663905",
+      "apiVersion": "batch/v1",
+      "resourceVersion": "89967"
+    },
+    "timestamp": "2024-09-04T08:29:00Z"
+  },
+  {
+    "event_type": "Warning",
+    "reason": "FailedGetResourceMetric",
+    "message": "failed to get cpu utilization: unable to get metrics for resource cpu: unable to fetch metrics from resource metrics API: the server could not find the requested resource (get pods.metrics.k8s.io)",
+    "involved_object": {
+      "kind": "HorizontalPodAutoscaler",
+      "namespace": "default",
+      "name": "my-hpa",
+      "uid": "5faff2a1-dc63-4732-bd7a-4194b1357d07",
+      "apiVersion": "autoscaling/v2",
+      "resourceVersion": "78933"
+    },
+    "timestamp": "2024-09-04T08:28:50Z"
+  }
+]

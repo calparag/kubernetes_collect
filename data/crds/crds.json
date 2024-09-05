@@ -1,0 +1,22 @@
+[
+  {
+    "name": "foos.myorg.example.com",
+    "group_version": "myorg.example.com/v1",
+    "scope": "Namespaced",
+    "validation_schema": {
+      "openAPIV3Schema": {
+        "type": "object",
+        "properties": {
+          "spec": {
+            "type": "object",
+            "properties": {
+              "bar": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]

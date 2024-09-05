@@ -1,0 +1,50 @@
+[
+  {
+    "name": "my-deployment",
+    "namespace": "default",
+    "labels": {
+      "app": "my-app"
+    },
+    "annotations": {
+      "deployment.kubernetes.io/revision": "1",
+      "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"apps/v1\",\"kind\":\"Deployment\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"my-app\"},\"name\":\"my-deployment\",\"namespace\":\"default\"},\"spec\":{\"replicas\":2,\"selector\":{\"matchLabels\":{\"app\":\"my-app\"}},\"template\":{\"metadata\":{\"labels\":{\"app\":\"my-app\"}},\"spec\":{\"containers\":[{\"image\":\"nginx:latest\",\"name\":\"my-container\",\"ports\":[{\"containerPort\":80}]}]}}}}\n"
+    },
+    "replicas": 2,
+    "selector": {
+      "app": "my-app"
+    },
+    "strategy": "RollingUpdate",
+    "revision_history": 10
+  },
+  {
+    "name": "nginx-deployment",
+    "namespace": "default",
+    "labels": null,
+    "annotations": {
+      "deployment.kubernetes.io/revision": "1",
+      "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"apps/v1\",\"kind\":\"Deployment\",\"metadata\":{\"annotations\":{},\"name\":\"nginx-deployment\",\"namespace\":\"default\"},\"spec\":{\"replicas\":3,\"selector\":{\"matchLabels\":{\"app\":\"nginx\"}},\"template\":{\"metadata\":{\"labels\":{\"app\":\"nginx\"}},\"spec\":{\"containers\":[{\"image\":\"nginx:1.19.3\",\"name\":\"nginx\",\"ports\":[{\"containerPort\":80}]}]}}}}\n"
+    },
+    "replicas": 3,
+    "selector": {
+      "app": "nginx"
+    },
+    "strategy": "RollingUpdate",
+    "revision_history": 10
+  },
+  {
+    "name": "coredns",
+    "namespace": "kube-system",
+    "labels": {
+      "k8s-app": "kube-dns"
+    },
+    "annotations": {
+      "deployment.kubernetes.io/revision": "1"
+    },
+    "replicas": 1,
+    "selector": {
+      "k8s-app": "kube-dns"
+    },
+    "strategy": "RollingUpdate",
+    "revision_history": 10
+  }
+]

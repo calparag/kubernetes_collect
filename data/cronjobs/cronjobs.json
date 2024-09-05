@@ -1,0 +1,8 @@
+[
+  {
+    "name": "my-cronjob",
+    "namespace": "default",
+    "schedule": "*/1 * * * *",
+    "pod_template": "my-cronjob"
+  }
+]

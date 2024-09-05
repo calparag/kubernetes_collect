@@ -1,0 +1,28 @@
+[
+  {
+    "name": "my-ingress",
+    "namespace": "default",
+    "rules": [
+      {
+        "host": "my-app.local",
+        "http": {
+          "paths": [
+            {
+              "path": "/",
+              "pathType": "Prefix",
+              "backend": {
+                "service": {
+                  "name": "my-service",
+                  "port": {
+                    "number": 80
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "tls": null
+  }
+]

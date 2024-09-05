@@ -1,0 +1,102 @@
+[
+  {
+    "name": "kubernetes",
+    "namespace": "default",
+    "labels": {
+      "component": "apiserver",
+      "provider": "kubernetes"
+    },
+    "annotations": null,
+    "type": "ClusterIP",
+    "selector": null,
+    "ports": [
+      {
+        "name": "https",
+        "protocol": "TCP",
+        "port": 443,
+        "targetPort": 8443
+      }
+    ],
+    "cluster_ip": "10.96.0.1"
+  },
+  {
+    "name": "my-service",
+    "namespace": "default",
+    "labels": null,
+    "annotations": {
+      "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"name\":\"my-service\",\"namespace\":\"default\"},\"spec\":{\"ports\":[{\"port\":80,\"protocol\":\"TCP\",\"targetPort\":80}],\"selector\":{\"app\":\"my-app\"},\"type\":\"NodePort\"}}\n"
+    },
+    "type": "NodePort",
+    "selector": {
+      "app": "my-app"
+    },
+    "ports": [
+      {
+        "protocol": "TCP",
+        "port": 80,
+        "targetPort": 80,
+        "nodePort": 31181
+      }
+    ],
+    "cluster_ip": "10.102.131.244"
+  },
+  {
+    "name": "nginx-service",
+    "namespace": "default",
+    "labels": null,
+    "annotations": {
+      "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"name\":\"nginx-service\",\"namespace\":\"default\"},\"spec\":{\"ports\":[{\"nodePort\":30007,\"port\":80,\"protocol\":\"TCP\",\"targetPort\":80}],\"selector\":{\"app\":\"nginx\"},\"type\":\"NodePort\"}}\n"
+    },
+    "type": "NodePort",
+    "selector": {
+      "app": "nginx"
+    },
+    "ports": [
+      {
+        "protocol": "TCP",
+        "port": 80,
+        "targetPort": 80,
+        "nodePort": 30007
+      }
+    ],
+    "cluster_ip": "10.103.12.43"
+  },
+  {
+    "name": "kube-dns",
+    "namespace": "kube-system",
+    "labels": {
+      "k8s-app": "kube-dns",
+      "kubernetes.io/cluster-service": "true",
+      "kubernetes.io/name": "CoreDNS"
+    },
+    "annotations": {
+      "prometheus.io/port": "9153",
+      "prometheus.io/scrape": "true"
+    },
+    "type": "ClusterIP",
+    "selector": {
+      "k8s-app": "kube-dns"
+    },
+    "ports": [
+      {
+        "name": "dns",
+        "protocol": "UDP",
+        "port": 53,
+        "targetPort": 53
+      },
+      {
+        "name": "dns-tcp",
+        "protocol": "TCP",
+        "port": 53,
+        "targetPort": 53
+      },
+      {
+        "name": "metrics",
+        "protocol": "TCP",
+        "port": 9153,
+        "targetPort": 9153
+      }
+    ],
+    "cluster_ip": "10.96.0.10"
+  }
+]
